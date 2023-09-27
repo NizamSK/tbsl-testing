@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Website\HomeController;
 use App\Http\Controllers\BaseController;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,14 @@ Route::post('lysaght/store', [HomeController::class, 'lysaghtStore'])->name('lys
 Route::get('durashine', [HomeController::class, 'durashine'])->name('durashine');
 Route::post('durashine/store', [HomeController::class, 'durashineStore'])->name('durashine.store');
 Route::post('getcitiesbystateid', [BaseController::class, 'getCityFromState'])->name('cities.by.stateid');
+
+Route::prefix('admin')->group(function(){
+    Auth::routes(['register'=>false]);
+    Route::get('/login', function () { return view('admin/auth/login'); })->name('login');
+    Route::post('/login',[LoginController::class,'authenticate'])->name('login');
+
+    Route::middleware(['auth'])->group(function(){
+        Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+        require __DIR__.'/admin.php';
+    });
+});

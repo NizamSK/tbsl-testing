@@ -71,7 +71,7 @@ class HomeController extends BaseController
 
     public function durashine() {
 
-        Meta::prependTitle('Lysaght')
+        Meta::prependTitle('Durashine')
             ->setKeywords('askdhaksdhj')
             ->setDescription('askjdaksd');
 

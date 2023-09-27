@@ -21,6 +21,24 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
+    public function authenticate(Request $request)
+    {
+        $credentials = [
+            'email' => $request['email'],
+            'password' => $request['password'],
+            'status' => 1,
+            'is_deleted' => 0
+        ];
+
+        if (Auth::attempt($credentials)) {
+            return \Redirect::intended(route('admin.home'));
+        }
+
+        return back()->withErrors([
+            'email' => 'The provided credentials do not match our records or account does not exist. Please try again.',
+        ]);
+    }
+
     /**
      * Where to redirect users after login.
      *
@@ -36,5 +54,14 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+
+    public function logout()
+    {
+        Session::flush();
+
+        Auth::logout();
+
+        return redirect()->route('login');
     }
 }
