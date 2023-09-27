@@ -121,7 +121,7 @@
                         </div>
                         <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
                             <div class="value-box h-100 d-flex align-items-center p-3 p-lg-4">
-                                <img src="{{ asset('website/assets/images/lysaght/icon2.svg') }}" alt="Icon" class="img-fluid me-2 me-md-3 me-lg-4">
+                                <img src="{{ asset('website/assets/images/lysaght/icon2.png') }}" alt="Icon" class="img-fluid me-2 me-md-3 me-lg-4">
                                 <div class="subtitle">Superior Quality with Unmatched Performance</div>
                             </div>
                         </div>

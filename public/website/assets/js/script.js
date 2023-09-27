@@ -37,9 +37,9 @@ $(function(){
     // })
     $('.award-slider').slick({
         speed: 500,
-        autoplay: false,
+        autoplay: true,
         slidesToShow: 1,
-        infinite: false,
+        infinite: true,
         arrows: false,
         dots:true,
     })

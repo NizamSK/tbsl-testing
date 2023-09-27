@@ -76,7 +76,7 @@
         </div>
     </section>
 
-    <section class="about py-5" id="about">
+    <section class="py-5" id="about" style="backgroung-color: #f8f8f8">
         <div class="container py-lg-5">
             <div class="row flex-md-row-reverse">
                 <div class="col-md-6 mb-4 mb-lg-0">
@@ -149,7 +149,7 @@
                         <div class="col-md-6 col-lg-4 mb-4 mb-lg-5 px-lg-4">
                             <div class="value-box h-100 d-flex align-items-center p-3 p-lg-4">
                                 <img src="{{ asset('website/assets/images/ezybuild/icon8.svg') }}" alt="Icon" class="img-fluid me-2 me-md-3 me-lg-4">
-                                <div class="subtitle">SLow maintenance</div>
+                                <div class="subtitle">Slow maintenance</div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 mb-4 mb-lg-5 px-lg-4">
@@ -170,7 +170,7 @@
                 <p class="subtitle mb-5">Lorem ipsum dolor sit amet consectetur. Varius venenatis libero in nunc.</p>
                 <div class="ptabs text-center">
                     <a href="javascript:;" class="active">PEB-Lite</a>
-                    <a href="javascript:;">Roof SMARTBUILD<sup>&reg;</sup> System</a>
+                    <a href="javascript:;">SMARTBUILD<sup>&reg;</sup> System</a>
                     <a href="javascript:;">SMARTRUSS<sup>&reg;</sup> System</a>
                     <a href="javascript:;">Light Structural Members</a>
                 </div>
@@ -191,7 +191,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-6 mb-4 mb-md-0"><img src="{{ asset('website/assets/images/ezybuild/product2.jpg') }}" alt="Product" class="w-100"></div>
                         <div class="col-md-6">
-                            <h3 class="sec-title mb-4">Roof SMARTBUILD<sup>&reg;</sup> System</h3>
+                            <h3 class="sec-title mb-4">SMARTBUILD<sup>&reg;</sup> System</h3>
                             <p class="subtitle mb-4">Lorem ipsum dolor sit amet consectetur. Massa eu lorem viverra faucibus semper tellus nunc elit ullamcorper. Scelerisque mauris lacus ut donec aenean. Nunc elit amet fermentum dolor cras at ultricies non praesent. Urna feugiat at turpis.</p>
                             <a href="#contact" class="common-btn">Contact Now</a>
                         </div>
@@ -281,7 +281,7 @@
         </div>
     </section>
 
-    <section class="awards primary-bg py-5">
+    <section class="awards noleft primary-bg py-5">
         <div class="container py-lg-5">
             <div class="row align-items-center">
                 <div class="col-md-6 col-lg-7 mb-4 mb-md-0">

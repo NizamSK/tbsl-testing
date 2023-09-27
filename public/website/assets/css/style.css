@@ -50,6 +50,7 @@ header{
 .menu-link.special{
     border: 1px solid #007BFF;
     background: linear-gradient(180deg, #2363AA 0%, #099FDC 100%);
+    border: 1px solid #fff;
     color: #fff;
     padding: .75rem 2.5rem;
     font-size: 1.125rem;
@@ -115,8 +116,8 @@ header{
 }
 .common-btn{
     border-radius: 24px;
-    border: 1px solid #007BFF;
     background: linear-gradient(180deg, #2363AA 0%, #099FDC 100%);
+    border: 1px solid #fff;
     color: #fff;
     padding: .75rem 2.5rem;
     display: inline-block;
@@ -200,7 +201,7 @@ header{
 }
 .ptabs a.active{
     background-color: #2C4F94;
-    border-color: #2C4F94;
+    border: 1px solid #fff;
     color: #fff;
 }
 .pcontent{
@@ -294,8 +295,16 @@ footer{background-color: #2363AA;}
     background-position: 0 100%, 100% 50%;
     background-size: 50%, contain;
 }
+.durashine .awards.noleft{
+    background-image: url(../images/banner_bg_durashine.svg);
+    background-position: 100% 50%;
+    background-size: contain;
+}
 
-
+.slick-dots li.slick-active button:before{
+    color: #2C4F94;
+    opacity: 1;
+}
 
 
 

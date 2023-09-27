@@ -2,7 +2,15 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-6 col-md-4 col-lg-3">
-                <a href="javascript:;"><img src="{{ asset('website/assets/images/logo.png') }}" alt="Lysaght" class="img-fluid"></a>
+                <a href="javascript:;">
+                    @if(Route::currentRouteName()=='lysaght') 
+                    <img src="{{ asset('website/assets/images/logo.png') }}" alt="Lysaght" class="img-fluid">
+                    @elseif(Route::currentRouteName()=='durashine') 
+                    <img src="{{ asset('website/assets/images/logo-durashine.png') }}" alt="Durashine" class="img-fluid">
+                    @elseif(Route::currentRouteName()=='ezybuild') 
+                    <img src="{{ asset('website/assets/images/logo-ezybuild.png') }}" alt="Ezybuild" class="img-fluid">
+                    @endif
+                </a>
             </div>
             <div class="col-6 col-md-8 col-lg-9 text-end">
                 <div class="nav-trigger d-block d-md-none">☰</div>
