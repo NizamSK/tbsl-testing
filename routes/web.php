@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Website\HomeController;
+use App\Http\Controllers\BaseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,4 +22,7 @@ use App\Http\Controllers\Website\HomeController;
 Auth::routes();
 
 Route::get('lysaght', [HomeController::class, 'lysaght'])->name('lysaght');
+Route::post('lysaght/store', [HomeController::class, 'lysaghtStore'])->name('lysaght.store');
 Route::get('durashine', [HomeController::class, 'durashine'])->name('durashine');
+Route::post('durashine/store', [HomeController::class, 'durashineStore'])->name('durashine.store');
+Route::post('getcitiesbystateid', [BaseController::class, 'getCityFromState'])->name('cities.by.stateid');

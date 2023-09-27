@@ -11,23 +11,41 @@
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center py-5 ps-lg-4 ps-xxl-5" id="contact">
                     <div class="main-form banner-form">
+                        <form action="{{ route('lysaght.store') }}" method="post">
+                            <input type="hidden" name="campaign_id" value="lysaght1">
+                        @csrf
                         <h2 class="sec-title md bold mb-5">Enquire with Us</h2>
+                        @if (session()->has('message'))
+                            <div class="alert alert-success">
+                                {{ session()->get('message') }}
+                            </div>
+                        @endif
+                        @if ($errors->any())
+                        <div class="alert alert-danger" role="alert">
+                                <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label>Name</label>
-                                <input type="text" name="" class="finput" placeholder="Type Name">
+                                <input type="text" name="name" value="{{ old('name') }}" class="finput" placeholder="Type Name">
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label>Phone No</label>
-                                <input type="number" name="" class="finput" placeholder="Type Phone No">
+                                <input type="number" name="phone" value="{{ old('phone') }}" class="finput" placeholder="Type Phone No">
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label>Email ID</label>
-                                <input type="email" name="" class="finput" placeholder="Type Email ID">
+                                <input type="email" name="email" value="{{ old('email') }}" class="finput" placeholder="Type Email ID">
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label>Profession</label>
-                                <select name="" class="finput">
+                                <select name="profession" class="finput">
                                     <option value="">Select Profession</option>
                                     <option>Student</option>
                                     <option>Government Employee</option>
@@ -36,30 +54,31 @@
                             </div>
                             <div class="col-md-12 mb-3">
                                 <label>Company Name</label>
-                                <input type="text" name="" class="finput" placeholder="Type Company Name">
+                                <input type="text" name="company_name" value="{{ old('company_name') }}" class="finput" placeholder="Type Company Name">
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label>Choose State</label>
-                                <select name="" class="finput">
+                                <select name="state" id="state" class="finput">
                                     <option value="">Choose State</option>
-                                    <option>Telangana</option>
+                                    @foreach($data['states'] as $state)
+                                        <option value="{{ $state->id }}">{{ $state->name }}</option>
+                                    @endforeach
                                 </select>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label>Choose City</label>
-                                <select name="" class="finput">
-                                    <option value="">Choose City</option>
-                                    <option>Hyderabad</option>
+                                <select name="city" id="city" class="finput">
                                 </select>
                             </div>
                             <div class="col-md-12 mb-3">
                                 <label>Message</label>
-                                <textarea name="" id="" class="finput"></textarea>
+                                <textarea name="message" id="message" class="finput">{{ old('message') }}</textarea>
                             </div>
                             <div class="col-md-12">
-                                <button type="button" class="common-btn">Submit</button>
+                                <button type="submit" class="common-btn">Submit</button>
                             </div>
                         </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -336,3 +355,29 @@
         </div>
     </section>
     @endsection()
+
+
+@section('custom_script')
+    <script type="text/javascript">
+    $('#state').change(function(){
+            $('#city').html('');
+            var state = $('#state').val();
+            $.ajax({
+                'type':'POST',
+                'url' : "{{ route('cities.by.stateid') }}" ,
+                data: {'_token': '{{ csrf_token() }}',state_id:state},
+                beforeSend:function(){
+                    $('#loading').html('<small class="text text-danger">Fetching....</small>');
+                },
+                success:function(response){
+                    $('#city').html('<option value="">Select City</option>');
+                    if(response.length > 0){
+                        $.each(response, function (key, value) {
+                            $('#city').append('<option value="'+value.id+'"> ' + value.name +  '</option>');
+                        });
+                    }
+                }
+            });
+        })
+    </script>
+@endsection()
