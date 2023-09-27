@@ -125,4 +125,16 @@ class HomeController extends BaseController
         return view('website.lysaght');
 
     }
+
+    public function ezybuild() {
+
+        Meta::prependTitle('Ezybuild')
+            ->setKeywords('askdhaksdhj')
+            ->setDescription('askjdaksd');
+
+        $data['states'] = $this->getStates();
+
+        return view('website.ezybuild', compact('data'));
+
+    }
 }
