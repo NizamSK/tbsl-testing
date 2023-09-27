@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 27, 2023 at 12:59 PM
+-- Generation Time: Sep 27, 2023 at 02:54 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -857,6 +857,36 @@ INSERT INTO `durashine_leads` (`id`, `campaign_id`, `name`, `phone`, `email`, `p
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `esybuild_leads`
+--
+
+CREATE TABLE `esybuild_leads` (
+  `id` int(11) NOT NULL,
+  `campaign_id` varchar(100) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `phone` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `profession` varchar(255) NOT NULL,
+  `company_name` varchar(255) DEFAULT NULL,
+  `state` varchar(20) NOT NULL,
+  `city` varchar(20) NOT NULL,
+  `message` text NOT NULL,
+  `ip` varchar(50) NOT NULL,
+  `previous_url` text DEFAULT NULL,
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `esybuild_leads`
+--
+
+INSERT INTO `esybuild_leads` (`id`, `campaign_id`, `name`, `phone`, `email`, `profession`, `company_name`, `state`, `city`, `message`, `ip`, `previous_url`, `created_at`, `updated_at`) VALUES
+(1, 'lysaght1', 'Phyllis Dunn', '43', 'tifi@mailinator.com', 'Private Employee', 'Guerra and Lawson Plc', '2', '522', 'Quam voluptas in err', '203.122.28.140', 'http://127.0.0.1:8000/lysaght', '2023-09-27 10:47:16', '2023-09-27 10:47:16');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `failed_jobs`
 --
 
@@ -882,7 +912,7 @@ CREATE TABLE `lysaght_leads` (
   `name` varchar(255) NOT NULL,
   `phone` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `profession` varchar(255) NOT NULL,
+  `profession` varchar(255) DEFAULT NULL,
   `company_name` varchar(255) DEFAULT NULL,
   `state` varchar(20) NOT NULL,
   `city` varchar(20) NOT NULL,
@@ -1041,6 +1071,13 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'Ajit', 'ajit@antsdigital.in', NULL, '$2y$10$2ft250e9YWB0HRpPOW/18eUvAzkAWblV39eOgonx3THygElS8ibtK', NULL, '2023-09-27 06:27:38', '2023-09-27 06:27:38');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -1054,6 +1091,12 @@ ALTER TABLE `district_masters`
 -- Indexes for table `durashine_leads`
 --
 ALTER TABLE `durashine_leads`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `esybuild_leads`
+--
+ALTER TABLE `esybuild_leads`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -1125,6 +1168,12 @@ ALTER TABLE `durashine_leads`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
+-- AUTO_INCREMENT for table `esybuild_leads`
+--
+ALTER TABLE `esybuild_leads`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `failed_jobs`
 --
 ALTER TABLE `failed_jobs`
@@ -1158,7 +1207,7 @@ ALTER TABLE `state_masters`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
