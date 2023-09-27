@@ -48,9 +48,9 @@ header{
     font-weight: 700;
 }
 .menu-link.special{
-    background-color: #1860AA;
-    color: #fff;
     border: 1px solid #007BFF;
+    background: linear-gradient(180deg, #2363AA 0%, #099FDC 100%);
+    color: #fff;
     padding: .75rem 2.5rem;
     font-size: 1.125rem;
     font-weight: 500;
@@ -152,7 +152,7 @@ header{
     transform: translate(-20%, 20%);
 }
 .primary-bg{
-    background-color: #2C4F94;
+    background-color: #2C4F94 !important;
 }
 .project-slider .slick-slide{
     padding: 0 1rem;
@@ -259,17 +259,17 @@ footer{background-color: #2363AA;}
 
 
 /*=================== CSS For Durashine ===================*/
-.durashine .menu-link.special{
+/* .durashine .menu-link.special{
     background: linear-gradient(0deg, #E31E24 0%, #990005 100%);
     border-color: #E32025;
-}
+} */
 .durashine .main-banner{
     background-image: url(../images/banner_bg_durashine.svg);
 }
-.durashine .common-btn{
+/* .durashine .common-btn{
     background: linear-gradient(0deg, #E31E24 0%, #990005 100%);
     border-color: #E32025;
-}
+} */
 .durashine .about{
     background-image: url(../images/about-bg4.svg);
     background-position: 0 100%;
@@ -279,13 +279,14 @@ footer{background-color: #2363AA;}
     background-color: #E31E24;
     border-color: #E31E24;
 }
-.durashine .primary-bg{
+/* .durashine .primary-bg{
     background-color: #921317;
-}
+} */
 .durashine .brochures, .durashine .value{
-    background-image: url(../images/bg-left.svg), url(../images/bg-right.svg);
+    background-image: url(../images/bg-right.svg), url(../images/bg-left.svg);
     background-repeat: repeat-y;
     background-position: 0 0, 100% 0;
+    background-size: auto;
 }
 .durashine .awards{
     background-color: #f8f8f8;
