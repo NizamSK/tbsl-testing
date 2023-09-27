@@ -316,3 +316,27 @@
 
 
     @endsection()
+    @section('custom_script')
+    <script type="text/javascript">
+        $('#state').change(function(){
+            $('#city').html('');
+            var state = $('#state').val();
+            $.ajax({
+                'type':'POST',
+                'url' : "{{ route('cities.by.stateid') }}" ,
+                data: {'_token': '{{ csrf_token() }}',state_id:state},
+                beforeSend:function(){
+                    $('#loading').html('<small class="text text-danger">Fetching....</small>');
+                },
+                success:function(response){
+                    $('#city').html('<option value="">Select City</option>');
+                    if(response.length > 0){
+                        $.each(response, function (key, value) {
+                            $('#city').append('<option value="'+value.id+'"> ' + value.name +  '</option>');
+                        });
+                    }
+                }
+            });
+        })
+    </script>
+@endsection()

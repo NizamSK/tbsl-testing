@@ -137,4 +137,47 @@ class HomeController extends BaseController
         return view('website.ezybuild', compact('data'));
 
     }
+
+    public function ezybuildStore(Request $request) {
+
+        $request->validate([
+            'name' => 'required',
+            'phone' => 'required',
+            'email' => 'required',
+            'company_name' => 'required',
+            'state' => 'required',
+            'city' => 'required',
+            'message' => 'required',
+        ]);
+
+        try{
+
+            $store  = LysaghtLead::create([
+                'campaign_id' => $request->campaign_id,
+                'name' => $request->name,
+                'phone' => $request->phone,
+                'email' => $request->email,
+                'company_name' => $request->company_name,
+                'state' => $request->state,
+                'city' => $request->city,
+                'message' => $request->message,
+                'created_at' => now()->toDateTimeString(),
+                'ip' => $this->getUserIpAddr(),
+                'previous_url' =>url()->previous(),
+            ]);
+
+            if($store){
+                return back()->with(['message' => 'Enquiry saved successfully', 'alert-class' => 'alert-success']);
+            }else{
+                return back()->with(['message' => 'Enquiry creation failed', 'alert-class' => 'alert-danger']);
+            }
+
+
+        }catch(Exception $e){
+            dd($e->getMessage());
+        }
+
+        return view('website.lysaght');
+
+    }
 }
