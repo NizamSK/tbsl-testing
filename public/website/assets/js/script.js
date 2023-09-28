@@ -10,6 +10,9 @@ $(function(){
         dots:false,
     }).on('beforeChange', function(event, slick, currentSlide, nextSlide){
         $('.about-count').html(nextSlide+1)
+        if($('.about-points')){
+            $('.about-points li:nth-child('+(nextSlide+1)+')').addClass('active').siblings().removeClass('active')
+        }
     });
     // $('.project-slider').slick({
     //     speed: 500,

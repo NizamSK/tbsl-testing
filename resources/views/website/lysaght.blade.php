@@ -94,13 +94,19 @@
                             <img src="{{ asset('website/assets/images/lysaght/about.jpg') }}" alt="About" class="img-fluid">
                             <img src="{{ asset('website/assets/images/lysaght/about2.jpg') }}" alt="About" class="img-fluid">
                             <img src="{{ asset('website/assets/images/lysaght/about3.jpg') }}" alt="About" class="img-fluid">
+                            <img src="{{ asset('website/assets/images/lysaght/about4.jpg') }}" alt="About" class="img-fluid">
                         </div>
                         <div class="about-count">1</div>
                     </div>
                 </div>
                 <div class="col-md-6 pe-lg-5">
-                    <h2 class="sec-title mb-5">About the Lysaght</h2>
-                    <p class="subtitle mb-5 py-xl-5">Lorem ipsum dolor sit amet consectetur. Massa eu lorem viverra faucibus semper tellus nunc elit ullamcorper. Scelerisque mauris lacus ut donec aenean. Nunc elit amet fermentum dolor cras at ultricies non praesent. Urna feugiat at turpis.</p>
+                    <h2 class="sec-title mb-4 mb-xxl-5">Why you should trust Lysaght<sup>&reg;</sup></h2>
+                    <ul class=" ps-0 mb-4 mb-xxl-5 about-points">
+                        <li class="desc lg bg-white px-3 px-lg-4 py-3 mb-3 br10 active">Global legacy of over 150 years and the trust of TATA</li>
+                        <li class="desc lg bg-white px-3 px-lg-4 py-3 mb-3 br10">Design engineering and leak-proof performance</li>
+                        <li class="desc lg bg-white px-3 px-lg-4 py-3 mb-3 br10">Value-Added Services – Roof Diagnostics & AMC</li>
+                        <li class="desc lg bg-white px-3 px-lg-4 py-3 mb-3 br10">360° Solution - Design, Manufacturing, and Construction</li>
+                    </ul>
                     <a href="#contact" class="common-btn">Contact Now</a>
                 </div>
             </div>
@@ -108,39 +114,32 @@
     </section>
     <section class="primary-bg text-center value text-white overflow-hidden py-5">
         <div class="container">
-            <h2 class="sec-title mb-5 text-white">Value Propositions</h2>
-            <p class="subtitle mb-5">Lorem ipsum dolor sit amet consectetur. Varius venenatis libero in nunc.</p>
+            <h2 class="sec-title mb-5 text-white">Get roofing solutions built to last</h2>
             <div class="row justify-content-center">
-                <div class="col-xxl-10">
+                <div class="col-xl-10">
                     <div class="row text-start justify-content-center">
                         <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
                             <div class="value-box h-100 d-flex align-items-center p-3 p-lg-4">
                                 <img src="{{ asset('website/assets/images/lysaght/icon1.svg') }}" alt="Icon" class="img-fluid me-2 me-md-3 me-lg-4">
-                                <div class="subtitle">360° Solution: Design, Manufacturing & Construction</div>
+                                <div class="subtitle">Stylish and durable</div>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
                             <div class="value-box h-100 d-flex align-items-center p-3 p-lg-4">
-                                <img src="{{ asset('website/assets/images/lysaght/icon2.png') }}" alt="Icon" class="img-fluid me-2 me-md-3 me-lg-4">
-                                <div class="subtitle">Superior Quality with Unmatched Performance</div>
+                                <img src="{{ asset('website/assets/images/lysaght/icon2.svg') }}" alt="Icon" class="img-fluid me-2 me-md-3 me-lg-4">
+                                <div class="subtitle">Insulated roof with thermal efficiency</div>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
                             <div class="value-box h-100 d-flex align-items-center p-3 p-lg-4">
                                 <img src="{{ asset('website/assets/images/lysaght/icon3.svg') }}" alt="Icon" class="img-fluid me-2 me-md-3 me-lg-4">
-                                <div class="subtitle">Wide Range to suit your style</div>
+                                <div class="subtitle">Comfortable and energy-saving </div>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
                             <div class="value-box h-100 d-flex align-items-center p-3 p-lg-4">
                                 <img src="{{ asset('website/assets/images/lysaght/icon4.svg') }}" alt="Icon" class="img-fluid me-2 me-md-3 me-lg-4">
-                                <div class="subtitle">Time Tested Global Legacy </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
-                            <div class="value-box h-100 d-flex align-items-center p-3 p-lg-4">
-                                <img src="{{ asset('website/assets/images/lysaght/icon5.svg') }}" alt="Icon" class="img-fluid me-2 me-md-3 me-lg-4">
-                                <div class="subtitle">CustomerCentricity</div>
+                                <div class="subtitle">Wide range to fit every need</div>
                             </div>
                         </div>
                     </div>
@@ -152,7 +151,6 @@
         <div class="container py-lg-5">
             <div class="text-center">
                 <h2 class="sec-title mb-4 mb-lg-5">Our Products</h2>
-                <p class="subtitle mb-5">Lorem ipsum dolor sit amet consectetur. Varius venenatis libero in nunc.</p>
                 <div class="ptabs text-center">
                     <a href="javascript:;" class="active">Roof Purlins  & Girts</a>
                     <a href="javascript:;">Roof and Wall Cladding</a>
@@ -163,90 +161,54 @@
                 </div>
             </div>
             <!-- <div class="d-none d-lg-block" style="height: 50px;"></div> -->
-            <div class="pcontent-wrap pt-5" id="pcontent-wrap">
+            <div class="pcontent-wrap text-center pt-5" id="pcontent-wrap">
                 <div class="pcontent" style="display: block;">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 mb-4 mb-md-0"><img src="{{ asset('website/assets/images/lysaght/product1.jpg') }}" alt="Product" class="w-100"></div>
-                        <div class="col-md-6">
-                            <h3 class="sec-title mb-4">Roof Purlins  & Girts</h3>
-                            <p class="subtitle mb-4">Lorem ipsum dolor sit amet consectetur. Massa eu lorem viverra faucibus semper tellus nunc elit ullamcorper. Scelerisque mauris lacus ut donec aenean. Nunc elit amet fermentum dolor cras at ultricies non praesent. Urna feugiat at turpis.</p>
-                            <a href="#contact" class="common-btn">Contact Now</a>
-                        </div>
-                    </div>
+                    <img src="{{ asset('website/assets/images/lysaght/product1.jpg') }}" alt="Product" class="img-fluid mb-4 mb-lg-5"><br>
+                    <a href="#contact" class="common-btn">Contact Now</a>
                 </div>
                 <div class="pcontent">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 mb-4 mb-md-0"><img src="{{ asset('website/assets/images/lysaght/product2.jpg') }}" alt="Product" class="w-100"></div>
-                        <div class="col-md-6">
-                            <h3 class="sec-title mb-4">Roof and Wall Cladding</h3>
-                            <p class="subtitle mb-4">Lorem ipsum dolor sit amet consectetur. Massa eu lorem viverra faucibus semper tellus nunc elit ullamcorper. Scelerisque mauris lacus ut donec aenean. Nunc elit amet fermentum dolor cras at ultricies non praesent. Urna feugiat at turpis.</p>
-                            <a href="#contact" class="common-btn">Contact Now</a>
-                        </div>
-                    </div>
+                    <img src="{{ asset('website/assets/images/lysaght/product2.jpg') }}" alt="Product" class="img-fluid mb-4 mb-lg-5"><br>
+                    <a href="#contact" class="common-btn">Contact Now</a>
                 </div>
                 <div class="pcontent">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 mb-4 mb-md-0"><img src="{{ asset('website/assets/images/lysaght/product3.jpg') }}" alt="Product" class="w-100"></div>
-                        <div class="col-md-6">
-                            <h3 class="sec-title mb-4">Insulated Roof Systems</h3>
-                            <p class="subtitle mb-4">Lorem ipsum dolor sit amet consectetur. Massa eu lorem viverra faucibus semper tellus nunc elit ullamcorper. Scelerisque mauris lacus ut donec aenean. Nunc elit amet fermentum dolor cras at ultricies non praesent. Urna feugiat at turpis.</p>
-                            <a href="#contact" class="common-btn">Contact Now</a>
-                        </div>
-                    </div>
+                    <img src="{{ asset('website/assets/images/lysaght/product3.jpg') }}" alt="Product" class="img-fluid mb-4 mb-lg-5"><br>
+                    <a href="#contact" class="common-btn">Contact Now</a>
                 </div>
                 <div class="pcontent">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 mb-4 mb-md-0"><img src="{{ asset('website/assets/images/lysaght/product4.jpg') }}" alt="Product" class="w-100"></div>
-                        <div class="col-md-6">
-                            <h3 class="sec-title mb-4">Decking System</h3>
-                            <p class="subtitle mb-4">Lorem ipsum dolor sit amet consectetur. Massa eu lorem viverra faucibus semper tellus nunc elit ullamcorper. Scelerisque mauris lacus ut donec aenean. Nunc elit amet fermentum dolor cras at ultricies non praesent. Urna feugiat at turpis.</p>
-                            <a href="#contact" class="common-btn">Contact Now</a>
-                        </div>
-                    </div>
+                    <img src="{{ asset('website/assets/images/lysaght/product4.jpg') }}" alt="Product" class="img-fluid mb-4 mb-lg-5"><br>
+                    <a href="#contact" class="common-btn">Contact Now</a>
                 </div>
                 <div class="pcontent">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 mb-4 mb-md-0"><img src="{{ asset('website/assets/images/lysaght/product5.jpg') }}" alt="Product" class="w-100"></div>
-                        <div class="col-md-6">
-                            <h3 class="sec-title mb-4">Accessories</h3>
-                            <p class="subtitle mb-4">Lorem ipsum dolor sit amet consectetur. Massa eu lorem viverra faucibus semper tellus nunc elit ullamcorper. Scelerisque mauris lacus ut donec aenean. Nunc elit amet fermentum dolor cras at ultricies non praesent. Urna feugiat at turpis.</p>
-                            <a href="#contact" class="common-btn">Contact Now</a>
-                        </div>
-                    </div>
+                    <img src="{{ asset('website/assets/images/lysaght/product5.jpg') }}" alt="Product" class="img-fluid mb-4 mb-lg-5"><br>
+                    <a href="#contact" class="common-btn">Contact Now</a>
                 </div>
                 <div class="pcontent">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 mb-4 mb-md-0"><img src="{{ asset('website/assets/images/lysaght/product6.jpg') }}" alt="Product" class="w-100"></div>
-                        <div class="col-md-6">
-                            <h3 class="sec-title mb-4">ILIOS®</h3>
-                            <p class="subtitle mb-4">Lorem ipsum dolor sit amet consectetur. Massa eu lorem viverra faucibus semper tellus nunc elit ullamcorper. Scelerisque mauris lacus ut donec aenean. Nunc elit amet fermentum dolor cras at ultricies non praesent. Urna feugiat at turpis.</p>
-                            <a href="#contact" class="common-btn">Contact Now</a>
-                        </div>
-                    </div>
+                    <img src="{{ asset('website/assets/images/lysaght/product6.jpg') }}" alt="Product" class="img-fluid mb-4 mb-lg-5"><br>
+                    <a href="#contact" class="common-btn">Contact Now</a>
                 </div>
             </div>
         </div>
     </section>
     <section class="primary-bg text-center text-white overflow-hidden py-5 brochures">
         <div class="container">
-            <h2 class="sec-title mb-5 text-white">Product brochures</h2>
-            <p class="subtitle mb-5">Lorem ipsum dolor sit amet consectetur. Varius venenatis libero in nunc.</p>
+            <h2 class="sec-title mb-5 text-white">Customised roofing for all projects</h2>
+            <p class="subtitle mb-5">We provide value engineering through roofing solutions for diverse industries and professionals:</p>
             <div class="row mb-2">
                 <div class="col-sm-6 col-md-3 mb-4">
                     <img src="{{ asset('website/assets/images/lysaght/brochure1.jpg') }}" alt="Brochure" class="img-fluid mb-3">
-                    <p class="desc md mb-0">Fortiss 470™</p>
+                    <p class="desc md mb-0">Manufacturing facilities</p>
                 </div>
                 <div class="col-sm-6 col-md-3 mb-4">
                     <img src="{{ asset('website/assets/images/lysaght/brochure2.jpg') }}" alt="Brochure" class="img-fluid mb-3">
-                    <p class="desc md mb-0">Tile Profile</p>
+                    <p class="desc md mb-0">Metro projects</p>
                 </div>
                 <div class="col-sm-6 col-md-3 mb-4">
                     <img src="{{ asset('website/assets/images/lysaght/brochure3.jpg') }}" alt="Brochure" class="img-fluid mb-3">
-                    <p class="desc md mb-0">LYSAGHT® Construction Services</p>
+                    <p class="desc md mb-0">Educational buildings</p>
                 </div>
                 <div class="col-sm-6 col-md-3 mb-4">
                     <img src="{{ asset('website/assets/images/lysaght/brochure4.jpg') }}" alt="Brochure" class="img-fluid mb-3">
-                    <p class="desc md mb-0">BR-II 900 The Strongest Roofing Profile</p>
+                    <p class="desc md mb-0">Re-roofing projects</p>
                 </div>
             </div>
             <a class="common-btn" href="#contact">Contact Now</a>
@@ -290,37 +252,18 @@
         </div>
     </section> -->
 
-    <section class="py-5 case text-center" id="case">
+    <section class="py-5 case" id="case">
         <div class="container py-5">
-            <h2 class="sec-title mb-4">Case Studies</h2>
-            <p class="subtitle mb-5">Lorem ipsum dolor sit amet consectetur. Varius venenatis libero in nunc.</p>
-            <div class="row justify-content-center">
-                <div class="col-sm-6 col-md-4 mb-4">
-                    <div class="case-box p-4 h-100 d-flex flex-column justify-content-between">
-                        <div>
-                            <img src="{{ asset('website/assets/images/lysaght/case1.jpg') }}" alt="Case" class="img-fluid mb-2">
-                            <div class="subtitle"><em>Veeline Media Limited, Surat</em></div>
-                        </div>
-                    </div>
+            <div class="row flex-md-row-reverse align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="{{ asset('website/assets/images/lysaght/case.png') }}" alt="Case" class="img-fluid d-inline-block">
                 </div>
-                <div class="col-sm-6 col-md-4 mb-4">
-                    <div class="case-box p-4 h-100 d-flex flex-column justify-content-between">
-                        <div>
-                            <img src="{{ asset('website/assets/images/lysaght/case2.jpg') }}" alt="Case" class="img-fluid mb-2">
-                            <div class="subtitle"><em>Building Stories; Spanning Capabilities</em></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 mb-4">
-                    <div class="case-box p-4 h-100 d-flex flex-column justify-content-between">
-                        <div>
-                            <img src="{{ asset('website/assets/images/lysaght/case3.jpg') }}" alt="Case" class="img-fluid mb-2">
-                            <div class="subtitle"><em>JSW</em></div>
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                    <h2 class="sec-title mb-4">The Complete Package - From Design to Construction</h2>
+                    <p class="subtitle mb-5">Lysaght<sup>&reg;</sup> offers a 360° solution covering everything from design and manufacture to construction. We are with you every step of the way, ensuring your project's success. </p>
+                    <a class="common-btn" href="#contact">Contact Now</a>
                 </div>
             </div>
-            <a class="common-btn mt-4" href="#contact">Contact Now</a>
 
         </div>
     </section>
@@ -347,8 +290,8 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-5 ps-lg-5 pe-lg-5">
-                    <h2 class="sec-title text-white mb-4">Awards & Recognition</h2>
-                    <p class="subtitle text-white mb-0">Lorem ipsum dolor sit amet consectetur. Varius venenatis libero in nunc.</p>
+                    <h2 class="sec-title text-white mb-4">Let's build together</h2>
+                    <p class="subtitle text-white mb-0">Contact us today to learn more about our low-cost building construction solutions, PEB buildings, and warehouse construction options.</p>
                     <a class="common-btn mt-4" href="#contact">Contact Now</a>
                 </div>
             </div>

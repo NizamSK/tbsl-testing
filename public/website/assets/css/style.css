@@ -1,9 +1,24 @@
 
-
+@font-face {
+    font-family: myriad;
+    src: url(../fonts/Myriad/MyriadPro-Regular.otf);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: myriad;
+    src: url(../fonts/Myriad/MyriadPro-Semibold.otf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: myriad;
+    src: url(../fonts/Myriad/MyriadPro-Bold.otf);
+    font-weight: 600;
+  }
 
 
 
 body{
+    font-family: myriad;
     margin-top: 94px;
 }
 a{
@@ -21,7 +36,8 @@ input:focus, select:focus, textarea:focus, button:focus{
     outline: none;
     box-shadow: none;
 }
-
+.br10{border-radius: 10px;}
+sup{top:-.4em}
 
 
 
@@ -196,7 +212,7 @@ header{
     transition: .3s ease;
     border-radius: 40px;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     margin: 0 .5rem 1.5rem;
 }
 .ptabs a.active{
@@ -305,7 +321,15 @@ footer{background-color: #2363AA;}
     color: #2C4F94;
     opacity: 1;
 }
-
+.about-points{
+    list-style: none;
+}
+.about-points li{
+    transition: .3s ease;
+}
+.about-points li.active{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
+}
 
 
 
