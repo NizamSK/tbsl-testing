@@ -89,7 +89,7 @@ header{
     line-height: 1.1;
 }
 .sec-title.md{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .sec-title.bold{
     font-weight: 700;
@@ -255,7 +255,7 @@ header{
 .br20{border-radius: 20px;}
 .award-slider .slick-dots{
     position: static;
-    
+
 }
 .award-slider .slick-dots li{margin: 0;}
 .award-slider .slick-dots li button:before{

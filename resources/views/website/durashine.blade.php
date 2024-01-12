@@ -11,18 +11,16 @@
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center py-5 ps-lg-4 ps-xxl-5" id="contact">
                     <div class="main-form banner-form">
-                        <form action="{{ route('lysaght.store') }}" method="post">
-                            <input type="hidden" name="campaign_id" value="lysaght1">
+                        <form action="{{ route('durashine.store') }}" method="post">
                         @csrf
-                        <h2 class="sec-title md bold mb-5">Enquire with Us</h2>
+                        <h2 class="sec-title md bold mb-5">Get a Free Quote on Innovative Metal Roofing and Wall Cladding</h2>
                         @if (session()->has('message'))
-                            <div class="alert alert-success">
+                            <div class="alert {{ session()->get('alert-class') }}">
                                 {{ session()->get('message') }}
                             </div>
                         @endif
                         @if ($errors->any())
-                        <div class="alert alert-danger" role="alert">
-                                <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                            <div class="alert alert-danger">
                                 <ul>
                                     @foreach ($errors->all() as $error)
                                         <li>{{ $error }}</li>
@@ -34,14 +32,23 @@
                             <div class="col-md-6 mb-3">
                                 <label>Name</label>
                                 <input type="text" name="name" value="{{ old('name') }}" class="finput" placeholder="Type Name">
+                                @error('name')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label>Phone No</label>
                                 <input type="number" name="phone" value="{{ old('phone') }}" class="finput" placeholder="Type Phone No">
+                                @error('phone')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="col-md-12 mb-3">
                                 <label>Email ID</label>
                                 <input type="email" name="email" value="{{ old('email') }}" class="finput" placeholder="Type Email ID">
+                                @error('email')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label>Choose State</label>
@@ -51,13 +58,18 @@
                                         <option value="{{ $state->id }}">{{ $state->name }}</option>
                                     @endforeach
                                 </select>
+                                @error('state')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label>Choose City</label>
-                                <select name="city" id="city" class="finput">
-                                </select>
+                                <select name="city" id="city" class="finput"></select>
+                                @error('city')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
-                            <div class="col-md-12 mb-3">
+                            <div class="col-md-6 mb-3">
                                 <label>Choose product</label>
                                 <select name="product" id="product" class="finput">
                                     <option value="">Choose Product</option>
@@ -67,10 +79,23 @@
                                     <option value="Longline Crimp"> Longline Crimp </option>
                                     <option value="Liner"> Liner </option>
                                 </select>
+                                @error('product')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
-                            <div class="col-md-12 mb-3">
+                            <div class="col-md-6 mb-3">
                                 <label>Quantity in Square feet</label>
                                 <input type="text" name="quantity" value="{{ old('quantity') }}" class="finput">
+                                @error('quantity')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <label>Message</label>
+                                <textarea name="message" id="message" class="finput ">{{ old('message') }}</textarea>
+                                @error('message')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="col-md-12">
                                 <button type="submit" class="common-btn">Submit</button>
@@ -315,8 +340,8 @@
     </section>
 
 
-    @endsection()
-    @section('custom_script')
+@endsection()
+@section('custom_script')
     <script type="text/javascript">
         $('#state').change(function(){
             $('#city').html('');

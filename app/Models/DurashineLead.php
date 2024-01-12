@@ -9,6 +9,8 @@ class DurashineLead extends Model
 {
     use HasFactory;
 
+    protected $table = 'durashine_leads';
+
     protected $fillable = [
         'campaign_id', 'name', 'phone', 'email', 'profession', 'company_name', 'state', 'city', 'message', 'ip','previous_url', 'created_at', 'updated_at'
     ];

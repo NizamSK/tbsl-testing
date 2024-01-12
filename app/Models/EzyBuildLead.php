@@ -9,8 +9,10 @@ class EzyBuildLead extends Model
 {
     use HasFactory;
 
+    protected $table = 'esybuild_leads';
+
     protected $fillable = [
-        'campaign_id', 'name', 'phone', 'email', 'profession', 'company_name', 'state', 'city', 'message', 'ip', 'created_at', 'updated_at'
+        'campaign_id', 'name', 'phone', 'email','solution' ,'quantity','profession', 'company_name', 'state', 'city', 'message', 'ip', 'created_at', 'updated_at'
     ];
 
     public function State() {

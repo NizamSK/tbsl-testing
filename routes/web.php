@@ -29,7 +29,7 @@ Route::get('durashine', [HomeController::class, 'durashine'])->name('durashine')
 Route::post('durashine/store', [HomeController::class, 'durashineStore'])->name('durashine.store');
 
 Route::get('ezybuild', [HomeController::class, 'ezybuild'])->name('ezybuild');
-Route::get('ezybuild/store', [HomeController::class, 'ezybuildStore'])->name('ezybuild.store');
+Route::post('ezybuild/store', [HomeController::class, 'ezybuildStore'])->name('ezybuild.store');
 
 Route::post('getcitiesbystateid', [BaseController::class, 'getCityFromState'])->name('cities.by.stateid');
 
