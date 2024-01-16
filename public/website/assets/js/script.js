@@ -46,6 +46,38 @@ $(function(){
         arrows: false,
         dots:true,
     })
+    $('.banner-slider').slick({
+        speed: 1000,
+        autoplay: true,
+        slidesToShow: 1,
+        infinite: true,
+        fade: true,
+        arrows: false,
+        dots: false,
+        pauseOnHover:false,
+    })
+    $('.award-slider2').slick({
+        speed: 500,
+        autoplay: true,
+        slidesToShow: 2,
+        infinite: true,
+        arrows: false,
+        dots:true,
+        responsive:[
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow:2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow:1
+                }
+            }
+        ]
+    })
 
 
     $('.ptabs a').on('click', function(){

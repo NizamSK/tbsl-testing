@@ -1,7 +1,14 @@
 
 
 <footer class="text-white text-center py-2">
-    <div class="container">Copyright © 2021 Tata BlueScope Steel. CIN: U45209PN2005PTC020270. All Rights Reserved.</div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-9 text-lg-start">Copyright © 2021 Tata BlueScope Steel. CIN: U45209PN2005PTC020270. All Rights Reserved.</div>
+            <div class="col-lg-3 text-lg-end">
+                Made with <span class="love">❤</span> with <a href="http://antsdigital.in" target="_blank" rel="noopener noreferrer" class="text-white text-decoration-underline">ants digital</a>
+            </div>
+        </div>
+    </div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

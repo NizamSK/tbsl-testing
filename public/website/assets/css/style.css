@@ -37,8 +37,9 @@ input:focus, select:focus, textarea:focus, button:focus{
     box-shadow: none;
 }
 .br10{border-radius: 10px;}
-sup{top:-.4em}
-
+/* sup{top:-.4em} */
+sup{top: 0em;font-size: 1.25em;}
+.f-600{font-weight: 600;}
 
 
 
@@ -138,6 +139,17 @@ header{
     padding: .75rem 2.5rem;
     display: inline-block;
 }
+.common-btn.common-btn2{
+    border-radius: 12px;
+}
+.common-btn.md{
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+}
+.common-btn.lg{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
 .subtitle{
     font-size: 1.5rem;
     line-height: 1.3;
@@ -145,6 +157,7 @@ header{
 .desc{
     font-size: 1rem;
 }
+.desc.sm{font-size: 1.125rem;}
 .desc.md{font-size: 1.25rem;}
 .about{
     background-color: #F8F8F8;
@@ -209,7 +222,7 @@ header{
     padding: 1rem 3rem;
     border: 1px solid #000;
     color: #000;
-    transition: .3s ease;
+    transition: background-color .3s ease, color .3s ease, border-radius 0s ease;
     border-radius: 40px;
     font-size: 1.5rem;
     font-weight: 400;
@@ -332,6 +345,151 @@ footer{background-color: #2363AA;}
 }
 
 
+/*=============================Lysaght New*/
+
+.main-banner-lys{
+    /* background-image: url(../images/lysaght/banner2.jpg); */
+    background-image: none;
+    background-size: cover;
+    background-position: center center;
+}
+.main-banner-lys .btitle{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.main-banner-lys .banner-point{
+    width: 4rem;
+    height: 4rem;
+    min-width: 4rem;
+    min-height: 4rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: linear-gradient(180deg, #2363AA 0%, #099FDC 100%);
+}
+.main-form.lys-form{
+    border-radius: 20.063px;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(31.766403198242188px);
+}
+.counter-single{
+    border-radius: 24px 24px 0px 0px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.16);
+}
+.counter-single .number{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1F6EB3;
+    margin-bottom: .25rem;
+}
+.counter-single .ndesc{
+    color: #1F6EB3;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+}
+.ptabs.lys a {
+    border-radius: 0;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-bottom: 1px solid #00000012;
+}
+.ptabs.lys a.active {
+    border-radius: 12px;
+    border: 1px solid transparent;
+}
+.lys-solution{
+    background-image: url(../images/lysaght/solution-left.png), url(../images/lysaght/solution-right.png);
+    background-position: 0 50%, 100% 50%;
+    background-repeat: no-repeat;
+}
+.value-box > .icon{
+    border-radius: 14px;
+    background: linear-gradient(180deg, #00B9F2 0%, #2C4F94 100%);
+    box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25) inset;
+    width: 100px;
+    height: 85px;
+}
+.value-box > .icon img{
+    max-width: 80px;
+    max-height: 70px;
+}
+.about.lys{
+    background-image: none;
+}
+.brochures.lys {
+    background-image: url(../images/about-bg5.png);
+}
+.case.lys{
+    background-image: none;
+}
+.awards.lys{
+    background-image: url(../images/banner_bg.svg);
+    background-size: contain;
+    background-position: 100% 50%;
+}
+.award-slider2{
+    margin: 0 -1rem;
+}
+.award-slider2 .slick-slide{
+    padding: 0 1rem;
+}
+.award-slider2 .slick-dots{
+    position: static;
+}
+.award-slider2 .slick-dots li{margin: 0;}
+.award-slider2 .slick-dots li button:before{
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    color: #fff;
+}
+.check-single{
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+}
+.love{
+    background: radial-gradient(217.84% 75% at 53.33% 75%, #DD150D 0%, rgba(223, 37, 30, 0.93) 68.5%, rgba(255, 255, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-slider {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.banner-slider .slick-list, .banner-slider .slick-track, .banner-slider .slick-slide {
+    height: 100%;
+}
+.banner-slider .slick-slide {
+    object-fit: cover;
+    object-position: center;
+}
+.main-form.label-lightblue label{
+    color: #00B9F2;
+}
+.footer-form{
+    background-image: url(../images/footer-form.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+.text-red{
+    color: #E80714;
+}
+/*=============================Lysaght New End*/
+
+
+
+
+
+
+
+
+
+
 
 
 /*===================  Responsive  ===================*/
@@ -361,6 +519,15 @@ footer{background-color: #2363AA;}
 }
 @media(max-width:767px){
     body{margin-top: 98px;}
+    .banner-slider .slick-slide {
+        object-fit: cover;
+        object-position: center;
+        height: 130vw;
+    }
+    .main-banner-lys{
+        background-color: #2363AA;
+        background-image: none;
+    }
     .menu-link{font-size: 1rem; display: block;width: max-content;color: #fff;margin-left:auto; margin-right: auto;margin-top: 1rem;margin-bottom: 1rem;}
     .menu-link:first-child{margin-left: auto;}
     .menu-link.special{font-size: .875rem;padding: .75rem 1.5rem;}
@@ -390,4 +557,6 @@ footer{background-color: #2363AA;}
         align-items: center;
         justify-content: center;
     }
+    .main-banner-lys .btitle{font-size: 2rem;}
+    .lys-solution,.footer-form{background-image: none;}
 }
