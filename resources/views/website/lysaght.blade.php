@@ -68,9 +68,9 @@
                             <label>Profession <span class="text-danger">*</span></label>
                             <select name="profession" class="finput required" required>
                                 <option value="">Select Profession</option>
-                                <option>Student</option>
-                                <option>Government Employee</option>
-                                <option>Private Employee</option>
+                                <option {{ (old("profession") == 'Student' ? "selected":"") }}>Student</option>
+                                <option {{ (old("profession") == 'Government Employee' ? "selected":"") }}>Government Employee</option>
+                                <option {{ (old("profession") == 'Private Employee' ? "selected":"") }}>Private Employee</option>
                             </select>
                             @error('profession')
                                 <span class="text-danger">{{ $message }}</span>
@@ -110,7 +110,7 @@
                             <select name="state" id="state" class="finput required" required>
                                 <option value="">Choose State</option>
                                 @foreach($data['states'] as $state)
-                                    <option value="{{ $state->id }}">{{ $state->name }}</option>
+                                    <option {{ (old("state") == $state->id ? "selected":"") }} value="{{ $state->id }}">{{ $state->name }}</option>
                                 @endforeach
                             </select>
                             @error('state')
@@ -119,7 +119,16 @@
                         </div>
                         <div class="col-md-6 mb-3">
                             <label>Choose City <span class="text-danger">*</span></label>
-                            <select name="city" id="city" class="finput required" required></select>
+                            @if(old('city'))
+                                <select name="city" id="city" class="finput required" required>
+                                    @foreach($data['cities'] as $city)
+                                        <option {{ (old("city") == $city->id ? "selected":"") }} value="{{ $city->id }}">{{ $city->name }}</option>
+                                    @endforeach
+                                </select>
+                            @else
+                                    <select name="city" id="city" class="finput required" required></select>
+                            @endif
+
                             @error('city')
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
@@ -214,7 +223,7 @@
             </div>
         </div>
         <!-- <div class="d-none d-lg-block" style="height: 50px;"></div> -->
-        
+
     </div>
 </section>
 <section class="primary-bg text-center value text-white overflow-hidden py-5 lys-solution">
@@ -291,7 +300,7 @@
                 <a href="#contact" class="common-btn md common-btn2">Enquire now</a>
             </div>
         </div>
-        
+
     </div>
 </section>
 <section class="primary-bg text-center text-white overflow-hidden py-5 brochures lys">
@@ -664,7 +673,7 @@
                         </div>
                     </div>
                     </form>
-                </div>                
+                </div>
             </div>
         </div>
     </div>

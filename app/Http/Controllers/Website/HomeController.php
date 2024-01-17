@@ -19,6 +19,7 @@ class HomeController extends BaseController
             ->setDescription('askjdaksd');
 
         $data['states'] = $this->getStates();
+        $data['cities'] = $this->getCities();
 
         return view('website.lysaght', compact('data'));
 
@@ -58,13 +59,13 @@ class HomeController extends BaseController
             ]);
 
             if($store){
-                return back()->with(['message' => 'Enquiry saved successfully', 'alert-class' => 'alert-success']);
+                return back()->with(['message' => 'Enquiry created successfully', 'alert-class' => 'alert-success']);
             }else{
                 return back()->with(['message' => 'Enquiry creation failed', 'alert-class' => 'alert-danger'])->withInput();
             }
         }catch(Exception $e){
             Log::error('Failed to create enquiry due to '.$e->getMessage());
-            return back()->with(['message' => 'Enquiry creation failed', 'alert-class' => 'alert-danger'])->withInput();
+            return back()->with(['message' => 'Enquiry creation failed for some reason. Please try again!!', 'alert-class' => 'alert-danger'])->withInput();
         }
 
     }

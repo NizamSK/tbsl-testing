@@ -13,6 +13,16 @@ class BaseController extends Controller
         return StateMaster::where('status', 1)->orderBy('name','ASC')->get();
     }
 
+    public function getCities()
+    {
+        return DistrictMaster::where('status', 1)->orderBy('name','ASC')->get();
+    }
+
+    public function getCitiesFromState($state_id)
+    {
+        return DistrictMaster::where('status', 1)->where('state_id', $state_id)->orderBy('name','ASC')->get();
+    }
+
     public function getCityFromState(Request $request)
     {
         if($request->ajax()){
