@@ -18,17 +18,17 @@
                     <div class="d-flex align-items-center mb-3 mb-lg-4">
                         <img class="me-2 me-sm-3" src="{{asset('website/assets/images/banner-icon1.svg')}}" alt="Icon" width="60" height="60">
                         {{-- <div class="banner-point me-2 me-sm-3"></div> --}}
-                        <div class="desc md text-white">Design and engineering excellence</div>
+                        <div class="desc md text-white">Design and Engineering Excellence</div>
                     </div>
                     <div class="d-flex align-items-center mb-3 mb-lg-4">
                         <img class="me-2 me-sm-3" src="{{asset('website/assets/images/banner-icon2.svg')}}" alt="Icon" width="60" height="60">
                         {{-- <div class="banner-point me-2 me-sm-3"></div> --}}
-                        <div class="desc md text-white">150 years of legacy and Trust</div>
+                        <div class="desc md text-white">150 years of Legacy and Trust</div>
                     </div>
                     <div class="d-flex align-items-center mb-3 mb-lg-4">
                         <img class="me-2 me-sm-3" src="{{asset('website/assets/images/banner-icon3.svg')}}" alt="Icon" width="60" height="60">
                         {{-- <div class="banner-point me-2 me-sm-3"></div> --}}
-                        <div class="desc md text-white">Global safety benchmarks</div>
+                        <div class="desc md text-white">Global Safety Benchmarks</div>
                     </div>
                 </div>
             </div>
@@ -173,8 +173,8 @@
 <section class="py-5" id="products">
     <div class="container py-lg-5">
         <div class="text-center">
-            <h2 class="sec-title mb-2">Our products and solutions</h2>
-            <p class="subtitle mb-5">we provide value engineering through roofing solutions for diverse industry sectors</p>
+            <h2 class="sec-title mb-2">Our Products and Solutions</h2>
+            <p class="subtitle mb-5">We provide value engineering through roofing solutions for diverse industry sectors</p>
         </div>
         <div class="row mt-5">
             <div class="col-md-6 pe-xl-5">
@@ -228,7 +228,7 @@
 </section>
 <section class="primary-bg text-center value text-white overflow-hidden py-5 lys-solution">
     <div class="container">
-        <h2 class="sec-title mb-5 text-white">Get roofing solutions built to last</h2>
+        <h2 class="sec-title mb-5 text-white">Get Roofing Solutions built to last</h2>
         <div class="row justify-content-center">
             <div class="col-xl-10">
                 <div class="row justify-content-center text-center">
@@ -237,7 +237,7 @@
                             {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center justify-content-center"> --}}
                             <img src="{{ asset('website/assets/images/lysaght/icon1.svg') }}" alt="Icon" class="img-fluid mb-2 mb-md-3 mb-lg-4">
                             {{-- </div> --}}
-                            <div class="subtitle mb-3">Occupant comfort</div>
+                            <div class="subtitle mb-3">Occupant Comfort</div>
                             <p class="desc sm">LYSAGHT<sup>&reg;</sup> roofing products provide optimal comfort for your building users. They are fire-resistant, termite-proof, and durable. They also reduce heat, noise, and glare.</p>
                         </div>
                     </div>
@@ -246,7 +246,7 @@
                             {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center justify-content-center"> --}}
                             <img src="{{ asset('website/assets/images/lysaght/icon2.svg') }}" alt="Icon" class="img-fluid mb-2 mb-md-3 mb-lg-4">
                             {{-- </div> --}}
-                            <div class="subtitle mb-3">Energy efficient</div>
+                            <div class="subtitle mb-3">Energy Efficient</div>
                             <p class="desc sm">LYSAGHT<sup>&reg;</sup> roofing products reflect heat and light, lowering your cooling and lighting costs. They also feature Thermatech<sup>&reg;</sup> technology, which improves the thermal efficiency of your building. They can also support roof-top solar solutions, helping you save on electricity bills.</p>
                         </div>
                     </div>
@@ -264,7 +264,7 @@
                             {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center justify-content-center"> --}}
                             <img src="{{ asset('website/assets/images/lysaght/icon4.svg') }}" alt="Icon" class="img-fluid mb-2 mb-md-3 mb-lg-4">
                             {{-- </div> --}}
-                            <div class="subtitle mb-3">Value added services</div>
+                            <div class="subtitle mb-3">Value Added Services</div>
                             <p class="desc sm">LYSAGHT<sup>&reg;</sup> roofing products are backed by a comprehensive warranty and technical support from Tata BlueScope Steel, a leading steel manufacturer in India. They also offer on-site roll forming facilities, ensuring fast and accurate installation. They are also available through a network of resellers and distributors across the country, providing you with easy access to quality roofing solutions.</p>
                         </div>
                     </div>
@@ -306,23 +306,23 @@
 <section class="primary-bg text-center text-white overflow-hidden py-5 brochures lys">
     <div class="container">
         <h2 class="sec-title mb-4 text-white">Customised roofing for all projects</h2>
-        <p class="subtitle mb-5">We provide value engineering through roofing solutions for diverse industries and professionals:</p>
+        <p class="subtitle mb-5">We provide value engineering through roofing solutions for diverse industries and professionals.</p>
         <div class="row mb-2">
             <div class="col-6 col-md-3 mb-4">
                 <img src="{{ asset('website/assets/images/lysaght/brochure1.jpg') }}" alt="Brochure" class="img-fluid mb-3">
-                <p class="desc md mb-0">Manufacturing facilities</p>
+                <p class="desc md mb-0">Manufacturing Facilities</p>
             </div>
             <div class="col-6 col-md-3 mb-4">
                 <img src="{{ asset('website/assets/images/lysaght/brochure2.jpg') }}" alt="Brochure" class="img-fluid mb-3">
-                <p class="desc md mb-0">Metro projects</p>
+                <p class="desc md mb-0">Metro Projects</p>
             </div>
             <div class="col-6 col-md-3 mb-4">
                 <img src="{{ asset('website/assets/images/lysaght/brochure3.jpg') }}" alt="Brochure" class="img-fluid mb-3">
-                <p class="desc md mb-0">Educational buildings</p>
+                <p class="desc md mb-0">Educational Buildings</p>
             </div>
             <div class="col-6 col-md-3 mb-4">
                 <img src="{{ asset('website/assets/images/lysaght/brochure4.jpg') }}" alt="Brochure" class="img-fluid mb-3">
-                <p class="desc md mb-0">Re-roofing projects</p>
+                <p class="desc md mb-0">Re-roofing Projects</p>
             </div>
         </div>
         <a class="common-btn md common-btn2" href="#contact">Enquire Now</a>
@@ -420,7 +420,7 @@
 </section>
 <section class="primary-bg text-white brochures lys py-5">
     <div class="container py-lg-4">
-        <h2 class="sec-title  text-center mb-4">What people say</h2>
+        <h2 class="sec-title  text-center mb-4">What People Say's</h2>
         <div class="row mb-4">
             <div class="col-md-6 mb-4 pb-xl-2">
                 <div class="ratio ratio-16x9">
@@ -486,7 +486,7 @@
             </div>
         </div> --}}
         <div class="text-center">
-            <a class="common-btn md common-btn2" href="#contact">Contact Now</a>
+            <a class="common-btn md common-btn2" href="#contact">Enquire Now</a>
         </div>
     </div>
 </section>
@@ -533,7 +533,7 @@
 </section>
 <section class="awards lys py-5">
     <div class="container py-lg-5">
-        <h2 class="sec-title text-white mb-4 text-center d-block d-md-none">Let's build together</h2>
+        <h2 class="sec-title text-white mb-4 text-center d-block d-md-none">Let's Build Together</h2>
         <div class="row align-items-center">
             <div class="col-md-6 col-lg-7 mb-4 mb-md-0">
                 <div class="bg-white br20 text-center px-3 px-lg-5 py-4">
