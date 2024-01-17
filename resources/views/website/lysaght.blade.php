@@ -413,28 +413,28 @@
     <div class="container py-lg-4">
         <h2 class="sec-title  text-center mb-4">What people say</h2>
         <div class="row mb-4">
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4 pb-xl-2">
                 <div class="ratio ratio-16x9">
                     <iframe src="https://www.youtube.com/embed/HsqESBSJs-0" width="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                 </div>
                 <h4 class="subtitle f-600 mt-3">Mr. H. E. Sriprakash Shastry</h4>
                 <p class="desc mb-0">Partner – Ashwathanarayana &amp; Eswara LLP</p>
             </div>
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4 pb-xl-2">
                 <div class="ratio ratio-16x9">
                     <iframe src="https://www.youtube.com/embed/5H65wDiHdE8" width="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                 </div>
                 <h4 class="subtitle f-600 mt-3">Mr. Pulkit Garg</h4>
                 <p class="desc mb-0">Associate VP – Projects, JCB</p>
             </div>
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4 pb-xl-2">
                 <div class="ratio ratio-16x9">
                     <iframe src="https://www.youtube.com/embed/TVhMaIjdF1Q" width="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                 </div>
                 <h4 class="subtitle f-600 mt-3">Mr. S K Nandi (2017)</h4>
                 <p class="desc mb-0">Principal Architect – Civil, CP Kukreja</p>
             </div>
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4 pb-xl-2">
                 <div class="ratio ratio-16x9">
                     <iframe src="https://www.youtube.com/embed/D9_rM86pP_Y" width="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                 </div>
@@ -669,6 +669,9 @@
         </div>
     </div>
 </section>
+<div class="sticky-right">
+    <a class="common-btn common-btn2" href="#contact">Enquire Now</a>
+</div>
 @endsection()
 
 
