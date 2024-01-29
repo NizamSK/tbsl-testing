@@ -13,7 +13,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-0">
                 <div class="banner-caption">
-                    <h1 class="btitle text-white mb-2">LYSAGHT<sup>&reg;</sup> your one stop solution for all roofing needs</h1>
+                    <h1 class="btitle text-white mb-2">LYSAGHT<sup>&reg;</sup> one stop solution for all roofing and wall cladding solutions</h1>
                     <p class="subtitle text-white mb-4 mb-xl-5">Our promise: your peace of mind</p>
                     <div class="d-flex align-items-center mb-3 mb-lg-4">
                         <img class="me-2 me-sm-3" src="{{asset('website/assets/images/banner-icon1.svg')}}" alt="Icon" width="60" height="60">
@@ -36,7 +36,7 @@
                 <div class="main-form lys-form px-3 px-lg-4 py-4">
                     <form action="{{ route('lysaght.store') }}" method="post">
                     @csrf
-                    <h2 class="sec-title md bold text-white mb-4">To get the best solution reach out to our LYSAGHT<sup>&reg;</sup> expert by filling this form</h2>
+                    <h2 class="sec-title md bold text-white mb-4">To get the best solution reach out to LYSAGHT<sup>&reg;</sup> by filling this form</h2>
                     @if (session()->has('message'))
                         <div class="alert {{ session()->get('alert-class') }}">
                             {{ session()->get('message') }}
@@ -173,8 +173,8 @@
 <section class="py-5" id="products">
     <div class="container py-lg-5">
         <div class="text-center">
-            <h2 class="sec-title mb-2">Our Products and Solutions</h2>
-            <p class="subtitle mb-5">We provide value engineering through roofing solutions for diverse industry sectors</p>
+            <h2 class="sec-title mb-2">Our Offerings</h2>
+            <p class="subtitle mb-5">We provide valuable engineering through our roofing and wall cladding solutions for diverse industry sectors</p>
         </div>
         <div class="row mt-5">
             <div class="col-md-6 pe-xl-5">
@@ -228,7 +228,7 @@
 </section>
 <section class="primary-bg text-center value text-white overflow-hidden py-5 lys-solution">
     <div class="container">
-        <h2 class="sec-title mb-5 text-white">Get Roofing Solutions built to last</h2>
+        <h2 class="sec-title mb-5 text-white">Get exclusive roofing and wall cladding solutions</h2>
         <div class="row justify-content-center">
             <div class="col-xl-10">
                 <div class="row justify-content-center text-center">
@@ -290,9 +290,9 @@
                 </div>
             </div>
             <div class="col-md-6 pe-lg-5">
-                <h2 class="sec-title mb-4 mb-xxl-5">Why you should trust Lysaght<sup>&reg;</sup></h2>
+                <h2 class="sec-title mb-4 mb-xxl-5">Why Lysaght<sup>&reg;</sup> is the ultimate choice</h2>
                 <ul class=" ps-0 mb-4 mb-xxl-5 about-points">
-                    <li class="desc md bg-white px-3 px-lg-4 py-3 mb-3 br10 active">Global legacy of over 150 years and the trust of TATA</li>
+                    <li class="desc md bg-white px-3 px-lg-4 py-3 mb-3 br10 active">Global legacy of over 150 years</li>
                     <li class="desc md bg-white px-3 px-lg-4 py-3 mb-3 br10">Design engineering and leak-proof performance</li>
                     <li class="desc md bg-white px-3 px-lg-4 py-3 mb-3 br10">Value-Added Services – Roof Diagnostics & AMC</li>
                     <li class="desc md bg-white px-3 px-lg-4 py-3 mb-3 br10">360° Solution - Design, Manufacturing, and Construction</li>
@@ -305,8 +305,8 @@
 </section>
 <section class="primary-bg text-center text-white overflow-hidden py-5 brochures lys">
     <div class="container">
-        <h2 class="sec-title mb-4 text-white">Customised roofing for all projects</h2>
-        <p class="subtitle mb-5">We provide value engineering through roofing solutions for diverse industries and professionals.</p>
+        <h2 class="sec-title mb-4 text-white">Customised roofing and wall cladding solutions for all your needs</h2>
+        <p class="subtitle mb-5">We offer valuable engineering solutions for a variety of industry sectors through our expertise in roofing and wall cladding solutions.</p>
         <div class="row mb-2">
             <div class="col-6 col-md-3 mb-4">
                 <img src="{{ asset('website/assets/images/lysaght/brochure1.jpg') }}" alt="Brochure" class="img-fluid mb-3">
@@ -318,7 +318,7 @@
             </div>
             <div class="col-6 col-md-3 mb-4">
                 <img src="{{ asset('website/assets/images/lysaght/brochure3.jpg') }}" alt="Brochure" class="img-fluid mb-3">
-                <p class="desc md mb-0">Educational Buildings</p>
+                <p class="desc md mb-0">Warehouses</p>
             </div>
             <div class="col-6 col-md-3 mb-4">
                 <img src="{{ asset('website/assets/images/lysaght/brochure4.jpg') }}" alt="Brochure" class="img-fluid mb-3">
@@ -561,7 +561,7 @@
         </div>
     </div>
 </section>
-<section class="footer-form py-5" style="background-color: #16284B">
+<!-- <section class="footer-form py-5" style="background-color: #16284B">
     <div class="container py-xl-4">
         <div class="row">
             <div class="col-lg-10 col-xl-9">
@@ -677,7 +677,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <div class="sticky-right">
     <a class="common-btn common-btn2" href="#contact">Enquire Now</a>
 </div>
