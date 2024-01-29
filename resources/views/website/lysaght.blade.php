@@ -269,7 +269,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center"><a href="#contact" class="common-btn lg common-btn2">Enquire now</a></div>
+                {{-- <div class="text-center"><a href="#contact" class="common-btn lg common-btn2">Enquire now</a></div> --}}
             </div>
         </div>
     </div>
