@@ -6,4 +6,5 @@
 
 @include('website.common.footer')
 
+
 @yield('custom_script')
