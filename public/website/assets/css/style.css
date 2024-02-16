@@ -19,7 +19,7 @@
 
 body{
     font-family: myriad;
-    margin-top: 94px;
+    margin-top: 80px;
 }
 a{
     text-decoration: none;
@@ -113,7 +113,7 @@ header{
 .main-form label {
     font-size: 1rem;
     font-weight: 600;
-    color: #2C4F94;
+    color: #fff;
     margin-bottom: .5rem;
 }
 
@@ -133,7 +133,8 @@ header{
 }
 .common-btn{
     border-radius: 24px;
-    background: linear-gradient(180deg, #2363AA 0%, #099FDC 100%);
+    /* background: linear-gradient(180deg, #2363AA 0%, #099FDC 100%); */
+    background: linear-gradient(90deg, #5D1E79 0%, #770D62 60%, #8B0051 100%);
     border: 1px solid #fff;
     color: #fff;
     padding: .75rem 2.5rem;
@@ -182,7 +183,10 @@ header{
     transform: translate(-20%, 20%);
 }
 .primary-bg{
-    background-color: #2C4F94 !important;
+    background-color: #5D1E79 !important;
+}
+.primary-bg-dark{
+    background-color: #3B134E !important;
 }
 .project-slider .slick-slide{
     padding: 0 1rem;
@@ -215,7 +219,7 @@ header{
 .value-box{
     border-radius: 24px;
     border: 1px solid #FFF;
-    background: rgba(255, 255, 255, 0.12);
+    background: linear-gradient(0deg, #ffffff00, #ffffff52)
 }
 .ptabs a{
     display: inline-block;
@@ -229,7 +233,7 @@ header{
     margin: 0 .5rem 1.5rem;
 }
 .ptabs a.active{
-    background-color: #2C4F94;
+    background-color: #8B0051;
     border: 1px solid #fff;
     color: #fff;
 }
@@ -331,7 +335,7 @@ footer{background-color: #2363AA;}
 }
 
 .slick-dots li.slick-active button:before{
-    color: #2C4F94;
+    color: #8B0051;
     opacity: 1;
 }
 .about-points{
@@ -352,6 +356,12 @@ footer{background-color: #2363AA;}
     background-image: none;
     background-size: cover;
     background-position: center center;
+}
+.main-banner-lys > .brand{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 10%;
 }
 .main-banner-lys .btitle{
     font-size: 2.5rem;
@@ -379,11 +389,11 @@ footer{background-color: #2363AA;}
 .counter-single .number{
     font-size: 3rem;
     font-weight: 600;
-    color: #1F6EB3;
+    color: #8B0051;
     margin-bottom: .25rem;
 }
 .counter-single .ndesc{
-    color: #1F6EB3;
+    color: #5D1E79;
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.5;
@@ -419,7 +429,7 @@ footer{background-color: #2363AA;}
     background-image: none;
 }
 .brochures.lys {
-    background-image: url(../images/about-bg5.png);
+    background-image: url(../images/sheet.png);
 }
 .case.lys{
     background-image: none;
@@ -487,6 +497,12 @@ footer{background-color: #2363AA;}
     transform-origin: right bottom;
     margin-top: -130px;
 }
+.testimonial{
+    background-image: url(../images/sheet.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 15%;
+}
 /*=============================Lysaght New End*/
 
 
@@ -502,6 +518,11 @@ footer{background-color: #2363AA;}
 
 /*===================  Responsive  ===================*/
 /*===================  Responsive  ===================*/
+@media(min-width:768px){
+    .navigation{
+        border-right:  1px solid #000;
+    }
+}
 @media(min-width:992px){
     .main-form.banner-form{
         width: 500px;
@@ -521,19 +542,20 @@ footer{background-color: #2363AA;}
     .desc.md{font-size: 1.125rem;}
 }
 @media(min-width:768px) and (max-width:991px){
+    body{margin-top: 71px;}
     .menu-link{font-size: .875rem;margin-left: 1rem;}
     .menu-link.special{padding: .5rem 1rem;font-size: .875rem;}
     .ptabs a{font-size: 1rem;padding: .5rem 1rem;}
+    .tbsl{width: 130px;}
 }
 @media(max-width:767px){
-    body{margin-top: 98px;}
     .banner-slider .slick-slide {
         object-fit: cover;
         object-position: center;
-        height: 130vw;
+        height: 145vw;
     }
     .main-banner-lys{
-        background-color: #2363AA;
+        background-color: #8B0051;
         background-image: none;
     }
     .menu-link{font-size: 1rem; display: block;width: max-content;color: #fff;margin-left:auto; margin-right: auto;margin-top: 1rem;margin-bottom: 1rem;}
@@ -567,4 +589,7 @@ footer{background-color: #2363AA;}
     }
     .main-banner-lys .btitle{font-size: 2rem;}
     .lys-solution,.footer-form{background-image: none;}
+    .testimonial{
+        background-image: none;
+    }
 }

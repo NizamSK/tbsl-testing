@@ -9,26 +9,35 @@
         <img class="img-fluid" src="{{asset('website/assets/images/lysaght/banner5.jpg')}}" alt="Banner">
         <img class="img-fluid" src="{{asset('website/assets/images/lysaght/banner6.jpg')}}" alt="Banner">
     </div>
+    <img src="{{asset('website/assets/images/lysaght/banner-bg.svg')}}" alt="Banner bg" class="brand">
     <div class="container position-relative pt-5">
         <div class="row align-items-center mb-5">
             <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-0">
                 <div class="banner-caption">
+                    <div class="pe-4">
+                        <img src="{{asset('website/assets/images/lysaght/shelterforall.svg')}}" alt="Shelter for all" class="img-fluid mb-3 mb-lg-4">
+                    </div>
                     <h1 class="btitle text-white mb-2">LYSAGHT<sup>&reg;</sup> one stop solution for all roofing and wall cladding solutions</h1>
                     <p class="subtitle text-white mb-4 mb-xl-5">Our promise: your peace of mind</p>
                     <div class="d-flex align-items-center mb-3 mb-lg-4">
                         <img class="me-2 me-sm-3" src="{{asset('website/assets/images/banner-icon1.svg')}}" alt="Icon" width="60" height="60">
-                        {{-- <div class="banner-point me-2 me-sm-3"></div> --}}
                         <div class="desc md text-white">Design and Engineering Excellence</div>
                     </div>
                     <div class="d-flex align-items-center mb-3 mb-lg-4">
                         <img class="me-2 me-sm-3" src="{{asset('website/assets/images/banner-icon2.svg')}}" alt="Icon" width="60" height="60">
-                        {{-- <div class="banner-point me-2 me-sm-3"></div> --}}
                         <div class="desc md text-white">150 years of Legacy and Trust</div>
                     </div>
                     <div class="d-flex align-items-center mb-3 mb-lg-4">
                         <img class="me-2 me-sm-3" src="{{asset('website/assets/images/banner-icon3.svg')}}" alt="Icon" width="60" height="60">
-                        {{-- <div class="banner-point me-2 me-sm-3"></div> --}}
                         <div class="desc md text-white">Global Safety Benchmarks</div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3 mb-lg-4">
+                        <img class="me-2 me-sm-3" src="{{asset('website/assets/images/banner-icon4.svg')}}" alt="Icon" width="60" height="60">
+                        <div class="desc md text-white">Advanced Multi-locational Manufacturing Capabilities</div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3 mb-lg-4">
+                        <img class="me-2 me-sm-3" src="{{asset('website/assets/images/banner-icon5.png')}}" alt="Icon" width="60" height="60">
+                        <div class="desc md text-white">In-built with Energy Efficient Technology</div>
                     </div>
                 </div>
             </div>
@@ -384,31 +393,31 @@
         </div>
         <div class="row justify-content-center text-white">
             <div class="col-md-6 col-lg-4 mb-4">
-                <div class="primary-bg py-4 px-4 px-xl-5 h-100 br10">
+                <div class="primary-bg-dark py-4 px-4 px-xl-5 h-100 br10">
                     <img src="{{asset('website/assets/images/package1.svg')}}" alt="Package" class="mb-1 mb-lg-2">
                     <div class="subtitle">On-time Project Delivery</div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
-                <div class="primary-bg py-4 px-4 px-xl-5 h-100 br10">
+                <div class="primary-bg-dark py-4 px-4 px-xl-5 h-100 br10">
                     <img src="{{asset('website/assets/images/package2.svg')}}" alt="Package" class="mb-1 mb-lg-2">
                     <div class="subtitle">World Class safety Practices and Processes</div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
-                <div class="primary-bg py-4 px-4 px-xl-5 h-100 br10">
+                <div class="primary-bg-dark py-4 px-4 px-xl-5 h-100 br10">
                     <img src="{{asset('website/assets/images/package3.svg')}}" alt="Package" class="mb-1 mb-lg-2">
                     <div class="subtitle">Unmatched Construction Capability</div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
-                <div class="primary-bg py-4 px-4 px-xl-5 h-100 br10">
+                <div class="primary-bg-dark py-4 px-4 px-xl-5 h-100 br10">
                     <img src="{{asset('website/assets/images/package4.svg')}}" alt="Package" class="mb-1 mb-lg-2">
                     <div class="subtitle">Proactive Roof Diagnostic</div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
-                <div class="primary-bg py-4 px-4 px-xl-5 h-100 br10">
+                <div class="primary-bg-dark py-4 px-4 px-xl-5 h-100 br10">
                     <img src="{{asset('website/assets/images/package5.svg')}}" alt="Package" class="mb-1 mb-lg-2">
                     <div class="subtitle">AMC</div>
                 </div>
@@ -426,7 +435,7 @@
 
     </div>
 </section>
-<section class="primary-bg text-white brochures lys py-5">
+<section class="primary-bg text-white  brochures lys py-5">
     <div class="container py-lg-4">
         <h2 class="sec-title  text-center mb-4">What People Say's</h2>
         <div class="row mb-4">
@@ -539,7 +548,7 @@
         </div>
     </div>
 </section>
-<section class="awards lys py-5">
+<section class="awards lys primary-bg py-5">
     <div class="container py-lg-5">
         <h2 class="sec-title text-white mb-4 text-center d-block d-md-none">Let's Build Together</h2>
         <div class="row align-items-center">

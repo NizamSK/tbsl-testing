@@ -1,29 +1,30 @@
 <svg width="162" height="139" viewBox="0 0 162 139" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_di_314_78)">
-<rect x="12" y="8" width="138" height="115" rx="14" fill="url(#paint0_linear_314_78)"/>
+<g filter="url(#filter0_di_412_845)">
+<rect x="12" y="8" width="138" height="115" rx="14" fill="url(#paint0_linear_412_845)"/>
 </g>
 <path d="M77.6454 32.6185L51 43.5962V70.6538C51 85.1533 80.7377 99 80.7377 99C80.7377 99 110.475 85.1533 110.475 70.6538V43.5962L83.83 32.6185C82.8502 32.2102 81.7992 32 80.7377 32C79.6762 32 78.6252 32.2102 77.6454 32.6185Z" stroke="#F8F8F8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M91.8185 59.8308H80.7377V44.5067L69.8974 67.2179H80.9782V82.542L91.8185 59.8308Z" stroke="#F8F8F8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <defs>
-<filter id="filter0_di_314_78" x="0" y="0" width="162" height="139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_di_412_845" x="0" y="0" width="162" height="139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="6"/>
 <feComposite in2="hardAlpha" operator="out"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_314_78"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_314_78" result="shape"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_412_845"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_412_845" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="2"/>
 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="shape" result="effect2_innerShadow_314_78"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_412_845"/>
 </filter>
-<linearGradient id="paint0_linear_314_78" x1="81" y1="8" x2="81" y2="123" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00B9F2"/>
-<stop offset="1" stop-color="#2C4F94"/>
+<linearGradient id="paint0_linear_412_845" x1="12" y1="65.5" x2="150" y2="65.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5D1E79"/>
+<stop offset="0.6" stop-color="#770D62"/>
+<stop offset="1" stop-color="#8B0051"/>
 </linearGradient>
 </defs>
 </svg>
