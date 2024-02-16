@@ -209,32 +209,32 @@
                     <div class="pcontent" style="display: block;">
                         <img src="{{ asset('website/assets/images/lysaght/product2.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">The LYSAGHT<sup>&reg;</sup> range of colour coated Roofing and Wall Cladding profiles from Tata BluesScope Steel are suitable for a variety of applications and design considerations.The roofing and walling profiles are manufactured from high strength ZINCALUME<sup>&reg;</sup> steel and COLORBOND<sup>&reg;</sup> steel exhibiting wider spanning capabilities with better uplift performance. Aesthetic appearance, longer life, environment-friendly, capability of sustaining high wind, and impact load, are some of the benefits of the LYSAGHT<sup>&reg;</sup> Roofing and Wall cladding sheets.</p>
-                        <div class="text-end"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
+                        <div class="text-start"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product1.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">LYSAGHT<sup>&reg;</sup> Roof Purlins and Girts are light-weight structural steel members, designed in accordance with the As/Nzs 4600: 1996 Cold Formed Steel Structures, utilising high Strength Zinc-coated Steel. Available in ZED-plus™ Sections, these roof purlins can be used over single spans or un-lapped and lapped continuous spans in multi-bay buildings. Lapped continuous spans result in considerable capacity increase in the system. LYSAGHT<sup>&reg;</sup> CEE-plus™ Sections may be used in single spans, and un-lapped continuous spans in multi-bay building, and are ideal as eave purlins or where compact sections are required for detailing.</p>
-                        <div class="text-end"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
+                        <div class="text-start"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product3.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">LYSAGHT<sup>&reg;</sup> profiles can be used in Single Skin and Double skin Insulated Roof systems. LYSAGHT<sup>&reg;</sup> roof and wall systems provide superior energy efficiency combined with aesthetic looks for the commercial construction sector. These systems are dependent on specific requirements and can be tailored to suit the thermal, acoustic, ventilation or economic requirements. Below are some Typical Insulated roof systems with LYSAGHT<sup>&reg;</sup> roofing profiles.</p>
-                        <div class="text-end"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
+                        <div class="text-start"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product4.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">Structural decking sheets in form of Smartdek and Ezydek are innovative systems specially developed for Indian construction fraternity. Structural Decking is an economic steel formwork deck that provides a stable and safe working platform to allow wet concrete to be poured. Structural Decking also acts as a tensile reinforcement imparting strength to the concrete slab. The steel decking sheets are suitable for all forms of construction – masonry, steel frame, concrete frame & all segments – Infrastructural, industrial, commercial & residential.</p>
-                        <div class="text-end"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
+                        <div class="text-start"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product5.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">The selection of right accessories is as critical as choosing the right roofing and walling material. We supply high-quality accessories that not only match, but are also compatible with our cladding material. They ensure longevity, are weatherproof as well as leak-proof and enhance aesthetics of the buildings.</p>
-                        <div class="text-end"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
+                        <div class="text-start"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product6.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">ILIOS<sup>&reg;</sup> offers premium solar module mounting solutions for ground and roof-top applications. These customised solar mounting systems are manufactured from cold rolled Zn-Al / Zn coated steel and offer higher corrosion resistance, weight optimisation and quick installation. ILIOS<sup>&reg;</sup> offers a complete solar mounting solution for executing turnkey solar power projects that includes design detailing, engineering support, installation and material supply. LYSAGHT<sup>&reg;</sup> multi-locational manufacturing facilities ensure on-time project delivery.</p>
-                        <div class="text-end"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
+                        <div class="text-start"><a href="#contact" class="common-btn md common-btn2">Explore</a></div>
                     </div>
                 </div>
             </div>
