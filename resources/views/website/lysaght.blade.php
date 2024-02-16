@@ -36,6 +36,14 @@
                 <div class="main-form lys-form px-3 px-lg-4 py-4">
                     <form action="{{ route('lysaght.store') }}" method="post">
                     @csrf
+                    <input type="hidden" name="utm_source" value="{{ request()->get('utm_source') }}">
+                    <input type="hidden" name="utm_medium" value="{{ request()->get('utm_medium') }}">
+                    <input type="hidden" name="utm_campaign" value="{{ request()->get('utm_campaign') }}">
+                    <input type="hidden" name="utm_term" value="{{ request()->get('utm_term') }}">
+                    <input type="hidden" name="utm_content" value="{{ request()->get('utm_content') }}">
+                    <input type="hidden" name="fbclid" value="{{ request()->get('fbclid') }}">
+                    <input type="hidden" name="gcid" value="{{ request()->get('gclid') }}">
+
                     <h2 class="sec-title md bold text-white mb-4">To get the best solution reach out to LYSAGHT<sup>&reg;</sup> by filling this form</h2>
                     @if (session()->has('message'))
                         <div class="alert {{ session()->get('alert-class') }}">

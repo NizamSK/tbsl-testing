@@ -38,6 +38,13 @@ class HomeController extends BaseController
             'state' => 'required',
             'city' => 'required',
             'message' => 'required|min:1|max:500',
+            'utm_source' => 'nullable',
+            'utm_medium' => 'nullable',
+            'utm_campaign' => 'nullable',
+            'utm_term' => 'nullable',
+            'utm_content' => 'nullable',
+            'fbclid' => 'nullable',
+            'gcid' => 'nullable',
         ]);
 
         try{
@@ -56,6 +63,13 @@ class HomeController extends BaseController
                 'created_at' => now()->toDateTimeString(),
                 'ip' => $this->getUserIpAddr(),
                 'previous_url' =>url()->previous(),
+                'utm_source' => $request->utm_source,
+                'utm_medium' => $request->utm_medium,
+                'utm_campaign' => $request->utm_campaign,
+                'utm_term' => $request->utm_term,
+                'utm_content' => $request->utm_content,
+                'fbclid' =>$request->fbclid,
+                'gcid' =>$request->gcid,
             ]);
 
             if($store){

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 26, 2023 at 05:51 AM
+-- Generation Time: Feb 16, 2024 at 11:37 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -913,8 +913,8 @@ CREATE TABLE `lysaght_leads` (
   `name` varchar(255) NOT NULL,
   `phone` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `product` varchar(255) NOT NULL,
-  `quantity` varchar(255) NOT NULL,
+  `product` varchar(255) DEFAULT NULL,
+  `quantity` varchar(255) DEFAULT NULL,
   `profession` varchar(255) DEFAULT NULL,
   `company_name` varchar(255) DEFAULT NULL,
   `state` varchar(20) NOT NULL,
@@ -922,6 +922,13 @@ CREATE TABLE `lysaght_leads` (
   `message` text NOT NULL,
   `ip` varchar(50) NOT NULL,
   `previous_url` text DEFAULT NULL,
+  `utm_source` varchar(255) DEFAULT NULL,
+  `utm_medium` varchar(255) DEFAULT NULL,
+  `utm_campaign` varchar(255) DEFAULT NULL,
+  `utm_term` varchar(255) DEFAULT NULL,
+  `utm_content` varchar(255) DEFAULT NULL,
+  `fbclid` varchar(255) DEFAULT NULL,
+  `gcid` varchar(255) DEFAULT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -930,12 +937,16 @@ CREATE TABLE `lysaght_leads` (
 -- Dumping data for table `lysaght_leads`
 --
 
-INSERT INTO `lysaght_leads` (`id`, `campaign_id`, `name`, `phone`, `email`, `product`, `quantity`, `profession`, `company_name`, `state`, `city`, `message`, `ip`, `previous_url`, `created_at`, `updated_at`) VALUES
-(1, 'lysaght1', 'Phyllis Dunn', '43', 'tifi@mailinator.com', '', '', 'Private Employee', 'Guerra and Lawson Plc', '2', '522', 'Quam voluptas in err', '203.122.28.140', 'http://127.0.0.1:8000/lysaght', '2023-09-27 10:47:16', '2023-09-27 10:47:16'),
-(2, 'lysaght1', 'Shoshana Alford', '43', 'guto@mailinator.com', '', '', 'Student', 'Buck Bryan Inc', '30', '270', 'Dolores veniam duci', '203.122.28.140', NULL, '2023-11-08 13:35:27', '2023-11-08 13:35:27'),
-(3, 'lysaght1', 'Richard Powell', '85', 'tira@mailinator.com', '', '', NULL, 'Francis and Morton LLC', '15', '457', 'Facere doloribus in', '203.122.28.140', NULL, '2023-11-08 13:41:03', '2023-11-08 13:41:03'),
-(4, 'lysaght1', 'Allegra Hopper', '8851883540', 'gybikisy@mailinator.com', 'Decking System', '134', 'Government Employee', 'Cook and Britt Trading', '4', '41', 'Non nihil maxime qui', '203.122.28.140', NULL, '2023-11-09 10:18:41', '2023-11-09 10:18:41'),
-(5, NULL, 'Russell Alvarado', '09454516619', 'ajit.antsdigital@gmail.com', 'Accessories', '944', 'Government Employee', 'New Delhi', '4', '49', 'Numquam et anim prov', '203.122.28.140', NULL, '2023-12-21 11:06:59', '2023-12-21 11:06:59');
+INSERT INTO `lysaght_leads` (`id`, `campaign_id`, `name`, `phone`, `email`, `product`, `quantity`, `profession`, `company_name`, `state`, `city`, `message`, `ip`, `previous_url`, `utm_source`, `utm_medium`, `utm_campaign`, `utm_term`, `utm_content`, `fbclid`, `gcid`, `created_at`, `updated_at`) VALUES
+(1, 'lysaght1', 'Phyllis Dunn', '43', 'tifi@mailinator.com', '', '', 'Private Employee', 'Guerra and Lawson Plc', '2', '522', 'Quam voluptas in err', '203.122.28.140', 'http://127.0.0.1:8000/lysaght', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-09-27 10:47:16', '2023-09-27 10:47:16'),
+(2, 'lysaght1', 'Shoshana Alford', '43', 'guto@mailinator.com', '', '', 'Student', 'Buck Bryan Inc', '30', '270', 'Dolores veniam duci', '203.122.28.140', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-11-08 13:35:27', '2023-11-08 13:35:27'),
+(3, 'lysaght1', 'Richard Powell', '85', 'tira@mailinator.com', '', '', NULL, 'Francis and Morton LLC', '15', '457', 'Facere doloribus in', '203.122.28.140', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-11-08 13:41:03', '2023-11-08 13:41:03'),
+(4, 'lysaght1', 'Allegra Hopper', '8851883540', 'gybikisy@mailinator.com', 'Decking System', '134', 'Government Employee', 'Cook and Britt Trading', '4', '41', 'Non nihil maxime qui', '203.122.28.140', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-11-09 10:18:41', '2023-11-09 10:18:41'),
+(5, NULL, 'Russell Alvarado', '09454516619', 'ajit.antsdigital@gmail.com', 'Accessories', '944', 'Government Employee', 'New Delhi', '4', '49', 'Numquam et anim prov', '203.122.28.140', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-21 11:06:59', '2023-12-21 11:06:59'),
+(6, NULL, 'Kamal Miles', '09454516619', 'ajit.antsdigital@gmail.com', NULL, NULL, 'Government Employee', 'New Delhi', '4', '41', 'Impedit velit ipsu', '203.122.28.140', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2024-01-17 12:38:34', '2024-01-17 12:38:34'),
+(7, NULL, 'Yuli Swanson', '9876543210', 'bidefydoh@mailinator.com', NULL, NULL, 'Private Employee', 'Hartman Casey Trading', '8', '440', 'At et incidunt erro', '203.122.28.140', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2024-01-17 18:24:25', '2024-01-17 18:24:25'),
+(8, NULL, 'Zachery Savage', '09454516619', 'ajit.antsdigital@gmail.com', NULL, NULL, 'Government Employee', 'New Delhi', '6', '727', 'Quo deleniti et dict', '203.122.28.140', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2024-01-18 10:13:47', '2024-01-18 10:13:47'),
+(9, NULL, 'Hilary Fulton', '09454516619', 'ajit.antsdigital@gmail.com', NULL, NULL, 'Student', 'New Delhi', '31', '813', 'Eiusmod suscipit ips', '203.122.28.140', 'http://127.0.0.1:8002/lysaght?utm_source=1&utm_medium=2&utm_campaign=3&utm_term=4&utm_content=5&fbclid=6&gclid=7', '1', '2', '3', '4', '5', '6', '7', '2024-02-16 16:07:02', '2024-02-16 16:07:02');
 
 -- --------------------------------------------------------
 
@@ -1190,7 +1201,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `lysaght_leads`
 --
 ALTER TABLE `lysaght_leads`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `migrations`
