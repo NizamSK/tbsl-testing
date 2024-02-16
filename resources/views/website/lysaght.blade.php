@@ -294,8 +294,8 @@
 
 <section class="about lys py-5" id="about">
     <div class="container py-lg-5">
-        <div class="row flex-md-row-reverse">
-            <div class="col-md-6 mb-4 mb-lg-0">
+        <div class="row flex-md-row-reverse justify-content-between">
+            <div class="col-md-6 col-xl-5 mb-4 mb-lg-0">
                 <div class="position-relative">
                     <div class="about-slider">
                         <img src="{{ asset('website/assets/images/lysaght/about-2.jpeg') }}" alt="About" class="img-fluid">
@@ -306,7 +306,7 @@
                     <div class="about-count">1</div>
                 </div>
             </div>
-            <div class="col-md-6 pe-lg-5">
+            <div class="col-md-6">
                 <h2 class="sec-title mb-4 mb-xxl-5">Why Lysaght<sup>&reg;</sup> is the ultimate choice</h2>
                 <ul class=" ps-0 mb-4 mb-xxl-5 about-points">
                     <li class="desc md bg-white px-3 px-lg-4 py-3 mb-3 br10 active">Global legacy of over 150 years</li>
