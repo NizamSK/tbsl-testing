@@ -15,8 +15,8 @@ class HomeController extends BaseController
     public function lysaght() {
 
         Meta::prependTitle('Lysaght')
-            ->setKeywords('askdhaksdhj')
-            ->setDescription('askjdaksd');
+            ->setKeywords('Tatabluescopesteel')
+            ->setDescription('LYSAGHT® one stop solution for all roofing and wall cladding solutions');
 
         $data['states'] = $this->getStates();
         $data['cities'] = $this->getCities();
