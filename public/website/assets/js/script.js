@@ -78,16 +78,26 @@ $(function(){
             }
         ]
     })
-
+    
 
     $('.ptabs a').on('click', function(){
         $(this).addClass('active').siblings().removeClass('active')
-        $('.pcontent-wrap .pcontent:nth-child('+($(this).index()+1)+')').fadeIn().siblings().hide()
-        if($(window).width()<767){
-            document.getElementById('pcontent-wrap').scrollIntoView({behavior:'smooth'})
-        }
+        $(this).parents('.ptabs-wrap').find('.pcontent-wrap .pcontent:nth-child('+($(this).index()+1)+')').fadeIn().siblings().hide()
+        // if($(window).width()<767){
+        //     document.getElementById('pcontent-wrap').scrollIntoView({behavior:'smooth'})
+        // }
     })
-
+    function tabTimeout(){
+        let index = $('.ptabs.package a.active').next().index()
+        if(index==-1) index = 0
+        $('.ptabs.package a:nth-child('+(index+1)+')').addClass('active').siblings().removeClass('active');
+        $('.ptabs.package').parents('.ptabs-wrap').find('.pcontent-wrap .pcontent:nth-child('+(index+1)+')').fadeIn().siblings().hide()
+    }
+    var tout = setInterval(() => {tabTimeout()}, 3000)
+    $('.ptabs.package a').on('click',function(){
+        clearInterval(tout)
+        tout = setInterval(() => {tabTimeout()}, 3000)
+    })
 
     $('.nav-trigger').on('click', function(){
         $(this).text() == "☰" ? $(this).text('✕') : $(this).text('☰')
