@@ -37,6 +37,8 @@ input:focus, select:focus, textarea:focus, button:focus{
     box-shadow: none;
 }
 .br10{border-radius: 10px;}
+.br20{border-radius: 20px;}
+.br30{border-radius: 30px;}
 /* sup{top:-.4em} */
 sup{top: 0em;font-size: 1.25em;}
 .f-600{font-weight: 600;}
@@ -106,8 +108,12 @@ header{
     border: none;
     border-bottom: 1px solid #E5E5E5;
     background: #FFF;
+    color: #000;
     height: 2.5rem;
     padding: 0 1rem;
+}
+.main-form .finput::placeholder {
+    color: #000;
 }
 
 .main-form label {
@@ -134,11 +140,17 @@ header{
 .common-btn{
     border-radius: 24px;
     /* background: linear-gradient(180deg, #2363AA 0%, #099FDC 100%); */
-    background: linear-gradient(90deg, #5D1E79 0%, #770D62 60%, #8B0051 100%);
-    border: 1px solid #fff;
+    /* background: linear-gradient(90deg, #5D1E79 0%, #770D62 60%, #8B0051 100%); */
+    background-color: #5D1E79;
+    /* border: 1px solid #fff; */
+    border: none;
     color: #fff;
     padding: .75rem 2.5rem;
     display: inline-block;
+}
+.common-btn.grad2{
+    background: linear-gradient(90deg, #8BC53F, #D7E599);
+    color: #8B0051;
 }
 .common-btn.common-btn2{
     border-radius: 12px;
@@ -218,8 +230,13 @@ header{
 }
 .value-box{
     border-radius: 24px;
-    border: 1px solid #FFF;
-    background: linear-gradient(0deg, #ffffff00, #ffffff52)
+    background-color: #fff;
+    border: 1px solid #5D1E79;
+    background-image: url(../images/value-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 80px;
+    /* background: linear-gradient(0deg, #ffffff00, #ffffff52) */
 }
 .ptabs a{
     display: inline-block;
@@ -233,7 +250,7 @@ header{
     margin: 0 .5rem 1.5rem;
 }
 .ptabs a.active{
-    background-color: #8B0051;
+    background-color: #5D1E79;
     border: 1px solid #fff;
     color: #fff;
 }
@@ -287,6 +304,7 @@ header{
     background-repeat: no-repeat;
 }
 
+
 footer{background-color: #2363AA;}
 
 
@@ -335,7 +353,7 @@ footer{background-color: #2363AA;}
 }
 
 .slick-dots li.slick-active button:before{
-    color: #8B0051;
+    color: #fff;
     opacity: 1;
 }
 .about-points{
@@ -382,20 +400,40 @@ footer{background-color: #2363AA;}
     background: rgba(255, 255, 255, 0.50);
     backdrop-filter: blur(31.766403198242188px);
 }
+.counter-sec{
+    background-image: url(../images/counter-bg.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center;
+}
 .counter-single{
-    border-radius: 24px 24px 0px 0px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 24px 24px 0px 24px;
+    /* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.16); */
+    background-image: linear-gradient(90deg, #5D1E79, #770D62, #8B0051);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.counter-single::before{
+    content: '';
+    width: 100px;
+    height: 80px;
+    background-color: #D9D9D922;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    border-radius: 30px;
 }
 .counter-single .number{
     font-size: 3rem;
     font-weight: 600;
-    color: #8B0051;
+    /* color: #8B0051; */
     margin-bottom: .25rem;
 }
 .counter-single .ndesc{
-    color: #5D1E79;
+    /* color: #5D1E79; */
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.5;
     margin: 0;
 }
@@ -405,13 +443,22 @@ footer{background-color: #2363AA;}
     border: none;
     border-bottom: 1px solid #00000012;
 }
+.ptabs.lys a img{
+    transition: .2s ease;
+}
 .ptabs.lys a.active {
     border-radius: 12px;
     border: 1px solid transparent;
 }
+.ptabs.lys a.active img{
+    filter: brightness(0) invert(1);
+}
 .lys-solution{
-    background-image: url(../images/lysaght/solution-left.png), url(../images/lysaght/solution-right.png);
-    background-position: 0 50%, 100% 50%;
+    /* background-image: url(../images/lysaght/solution-left.png), url(../images/lysaght/solution-right.png);
+    background-position: 0 50%, 100% 50%; */
+    background-image: url(../images/lys-solution.png);
+    background-position: 100% 100%;
+    background-size: 30%;
     background-repeat: no-repeat;
 }
 .value-box > .icon{
@@ -432,7 +479,9 @@ footer{background-color: #2363AA;}
     background-image: url(../images/sheet.png);
 }
 .case.lys{
-    background-image: none;
+    background-image: url(../images/lysaght/case-bg.png);
+    background-position: 0 100%;
+    background-size: 25%;
 }
 .awards.lys{
     background-image: url(../images/banner_bg.svg);
@@ -456,8 +505,18 @@ footer{background-color: #2363AA;}
     color: #fff;
 }
 .check-single{
+    background-color: rgba(255, 255, 255, 0.80);
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+    position: relative;
 }
+/* .check-single::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
 .love{
     background: radial-gradient(217.84% 75% at 53.33% 75%, #DD150D 0%, rgba(223, 37, 30, 0.93) 68.5%, rgba(255, 255, 255, 1) 100%);
     background-clip: text;
@@ -503,6 +562,31 @@ footer{background-color: #2363AA;}
     background-position: 100% 100%;
     background-size: 15%;
 }
+.why-single{
+    background-color: #5D1E79;
+    background-image: url(../images/lysaght/why-bg.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+.why-single.green{
+    background-color: #7DB139;
+    background-image: url(../images/lysaght/why-bg2.png);
+}
+.grad-text{
+    background: linear-gradient(90deg, #5D1E79, #770D62, #8B0051);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sol-sec{
+    background-image: url(../images/lysaght/sol-bg.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 15%;
+}
+.award-wrap{
+    background: linear-gradient(90deg, #5D1E79 0%, #770D62 60%, #8B0051 100%);
+}
 /*=============================Lysaght New End*/
 
 
@@ -527,6 +611,12 @@ footer{background-color: #2363AA;}
     .main-form.banner-form{
         width: 500px;
         max-width: 70%;
+    }
+    .checkpoint-wrap{
+        background-image: url(../images/lysaght/checkpoint-bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
     }
 }
 @media(min-width:992px) and (max-width:1199px){
