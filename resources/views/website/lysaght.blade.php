@@ -282,7 +282,7 @@
     <div class="container py-lg-5">
         <div class="text-center">
             <h2 class="sec-title mb-2">Our Offerings</h2>
-            <p class="subtitle mb-5">We provide valuable engineering through our roof and wall cladding solutions for diverse industry sectors</p>
+            <p class="subtitle mb-5">We provide valuable engineering expertise through our roof and wall cladding solutions for diverse industry sectors</p>
         </div>
         <div class="row mt-5 ptabs-wrap">
             <div class="col-md-6 pe-xl-5">
@@ -299,7 +299,7 @@
                 <div class="pcontent-wrap" id="pcontent-wrap">
                     <div class="pcontent" style="display: block;">
                         <img src="{{ asset('website/assets/images/lysaght/product2.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
-                        <p class="desc mb-4">The LYSAGHT<sup>&reg;</sup> range of colour coated Roof and Wall Cladding profiles from Tata BluesScope Steel are suitable for a variety of applications and design considerations.The roof and walling profiles are manufactured from high strength ZINCALUME<sup>&reg;</sup> steel and COLORBOND<sup>&reg;</sup> steel exhibiting wider spanning capabilities with better uplift performance. Aesthetic appearance, longer life, environment-friendly, capability of sustaining high wind, and impact load, are some of the benefits of the LYSAGHT<sup>&reg;</sup> roof and Wall cladding sheets.</p>
+                        <p class="desc mb-4">The LYSAGHT<sup>&reg;</sup> range of colour coated roof and wall cladding profiles from Tata BluesScope Steel are suitable for a variety of applications and design considerations. The roof and wall cladding profiles are manufactured from high strength ZINCALUME<sup>&reg;</sup> steel and COLORBOND<sup>&reg;</sup> steel exhibiting wider spanning capabilities with better uplift performance. Aesthetic appearance, longer life, environment-friendly, capability of sustaining high wind, and impact load, are some of the benefits of the LYSAGHT<sup>&reg;</sup> roof and wall cladding sheets.</p>
                         <div class="text-center text-md-start"><a href="#contact" class="common-btn common-btn2">Explore</a></div>
                     </div>
                     <div class="pcontent">
