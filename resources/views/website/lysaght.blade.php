@@ -4,9 +4,9 @@
 <section class="main-banner-lys position-relative">
     <div class="banner-slider">
         {{-- <img class="img-fluid" src="{{asset('website/assets/images/lysaght/banner2.jpg')}}" alt="Banner"> --}}
+        <img class="img-fluid" src="{{asset('website/assets/images/lysaght/banner7.jpg')}}" alt="Banner">
         <img class="img-fluid" src="{{asset('website/assets/images/lysaght/banner3.jpg')}}" alt="Banner">
         <img class="img-fluid" src="{{asset('website/assets/images/lysaght/banner4.jpg')}}" alt="Banner">
-        <img class="img-fluid" src="{{asset('website/assets/images/lysaght/banner5.jpg')}}" alt="Banner">
         <img class="img-fluid" src="{{asset('website/assets/images/lysaght/banner6.jpg')}}" alt="Banner">
     </div>
     <img src="{{asset('website/assets/images/lysaght/banner-bg.svg')}}" alt="Banner bg" class="brand">
@@ -250,52 +250,56 @@
 
     </div>
 </section>
-<section class="value overflow-hidden py-5 lys-solution" style="background-color: #F5F5F5">
+<section class="value overflow-hidden py-5 lys-solution sol2" style="background-color: #F5F5F5">
     <div class="container">
-        <h2 class="sec-title mb-5 text-center">Get Exclusive Roof and Wall Cladding Solutions</h2>
-        <div class="row justify-content-center">
-            <div class="col-xl-10">
-                <div class="row justify-content-center text-center text-md-left">
-                    <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
-                        <div class="value-box h-100 d-flex flex-column align-items-center align-items-md-start p-3 p-lg-4">
-                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
-                            <img src="{{ asset('website/assets/images/lysaght/icon1.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
-                            {{-- </div> --}}
-                            <div class="subtitle mb-3">Occupant Comfort</div>
-                            <p class="desc sm">LYSAGHT<sup>&reg;</sup> roofing products provide optimal comfort for your building users. They are fire-resistant, termite-proof, and durable. They also reduce heat, noise, and glare.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
-                        <div class="value-box h-100 d-flex flex-column align-items-center align-items-md-start p-3 p-lg-4">
-                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
-                            <img src="{{ asset('website/assets/images/lysaght/icon2.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
-                            {{-- </div> --}}
-                            <div class="subtitle mb-3">Energy Efficient</div>
-                            <p class="desc sm">LYSAGHT<sup>&reg;</sup> roofing products reflect heat and light, lowering your cooling and lighting costs. They also feature Thermatech<sup>&reg;</sup> technology, which improves the thermal efficiency of your building. They can also support roof-top solar solutions, helping you save on electricity bills.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
-                        <div class="value-box h-100 d-flex flex-column align-items-center align-items-md-start p-3 p-lg-4">
-                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
-                            <img src="{{ asset('website/assets/images/lysaght/icon3.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
-                            {{-- </div> --}}
-                            <div class="subtitle mb-3">Customised Solutions</div>
-                            <p class="desc sm">LYSAGHT<sup>&reg;</sup> roofing products come in various profiles, shapes, colours, and finishes, allowing you to customize your roof according to your preferences and needs. They can suit any roof design and integrate with other building materials, creating a harmonious and attractive look for your building.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
-                        <div class="value-box h-100 d-flex flex-column align-items-center align-items-md-start p-3 p-lg-4">
-                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
-                            <img src="{{ asset('website/assets/images/lysaght/icon4.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
-                            {{-- </div> --}}
-                            <div class="subtitle mb-3">Value Added Services</div>
-                            <p class="desc sm">LYSAGHT<sup>&reg;</sup> roofing products are backed by a comprehensive warranty and technical support from Tata BlueScope Steel, a leading steel manufacturer in India. They also offer on-site roll forming facilities, ensuring fast and accurate installation. They are also available through a network of resellers and distributors across the country, providing you with easy access to quality roofing solutions.</p>
-                        </div>
+        <h2 class="sec-title mb-5 text-center">Get Exclusive Roof and <span class="text-grad">Wall Cladding Solutions</span></h2>
+        <div class="row justify-content-center text-center text-md-start">
+            <div class="col-lg-6 mb-4 mb-lg-5 px-lg-4">
+                <div class="value-box h-100 d-flex flex-column flex-md-row align-items-center align-items-md-start p-3 p-lg-4">
+                    {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
+                    <img src="{{ asset('website/assets/images/lysaght/icon1.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
+                    {{-- </div> --}}
+                    <div class="ps-md-3">
+                        <div class="subtitle mb-3">Occupant Comfort</div>
+                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roofing products provide optimal comfort for your building users. They are fire-resistant, termite-proof, and durable. They also reduce heat, noise, and glare.</p>
                     </div>
                 </div>
-                <div class="text-center"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
+            </div>
+            <div class="col-lg-6 mb-4 mb-lg-5 px-lg-4">
+                <div class="value-box h-100 d-flex flex-column flex-md-row align-items-center align-items-md-start p-3 p-lg-4">
+                    {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
+                    <img src="{{ asset('website/assets/images/lysaght/icon2.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
+                    {{-- </div> --}}
+                    <div class="ps-md-3">
+                        <div class="subtitle mb-3">Energy Efficient</div>
+                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roofing products reflect heat and light, lowering your cooling and lighting costs. They also feature Thermatech<sup>&reg;</sup> technology, which improves the thermal efficiency of your building. They can also support roof-top solar solutions, helping you save on electricity bills.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4 mb-lg-5 px-lg-4">
+                <div class="value-box h-100 d-flex flex-column flex-md-row align-items-center align-items-md-start p-3 p-lg-4">
+                    {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
+                    <img src="{{ asset('website/assets/images/lysaght/icon3.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
+                    {{-- </div> --}}
+                    <div class="ps-md-3">
+                        <div class="subtitle mb-3">Customised Solutions</div>
+                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roofing products come in various profiles, shapes, colours, and finishes, allowing you to customize your roof according to your preferences and needs. They can suit any roof design and integrate with other building materials, creating a harmonious and attractive look for your building.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4 mb-lg-5 px-lg-4">
+                <div class="value-box h-100 d-flex flex-column flex-md-row align-items-center align-items-md-start p-3 p-lg-4">
+                    {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
+                    <img src="{{ asset('website/assets/images/lysaght/icon4.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
+                    {{-- </div> --}}
+                    <div class="ps-md-3">
+                        <div class="subtitle mb-3">Value Added Services</div>
+                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roofing products are backed by a comprehensive warranty and technical support from Tata BlueScope Steel, a leading steel manufacturer in India. They also offer on-site roll forming facilities, ensuring fast and accurate installation. They are also available through a network of resellers and distributors across the country, providing you with easy access to quality roofing solutions.</p>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="text-center"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
     </div>
 </section>
 
@@ -304,31 +308,31 @@
         <h2 class="sec-title mb-4 mb-xl-5 text-center">Why Lysaght<sup>&reg;</sup> Is <span class="grad-text">The Ultimate</span> <span class="grad-text">Choice</span></h2>
         <div class="row justify-content-between mb-4">
             <div class="col-lg-6 col-xl-5 mb-4 mb-lg-0 pe-xl-0">
-                <img src="{{asset('website/assets/images/lysaght/why-img.png')}}" alt="Why Img" class="w-100">
+                <img src="{{asset('website/assets/images/lysaght/why-img.jpg')}}" alt="Why Img" class="w-100 h-100 object-fit-cover br30">
             </div>
             <div class="col-lg-6 text-center text-md-start">
                 <div class="row">
-                    <div class="col-sm-6 mb-4">
+                    <div class="col-md-6 mb-4">
                         <div class="why-single h-100 p-4 br10">
                             <img src="{{asset('website/assets/images/lysaght/why-icon1.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
                             <p class="desc md text-white">150 Years of Global Legacy</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 mb-4">
+                    <div class="col-md-6 mb-4">
                         <div class="why-single h-100 green p-4 br10">
                             <img src="{{asset('website/assets/images/lysaght/why-icon2.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
                             <p class="desc md text-white">Design Engineering and Leak-Proof Performance</p>
                         </div>
                     </div>
                 </div>
-                <div class="row flex-sm-row-reverse">
-                    <div class="col-sm-6 mb-4">
+                <div class="row flex-md-row-reverse">
+                    <div class="col-md-6 mb-4 mb-md-0">
                         <div class="why-single h-100 p-4 br10">
                             <img src="{{asset('website/assets/images/lysaght/why-icon3.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
                             <p class="desc md text-white">360° Solution - Design, Manufacturing, & Construction</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 mb-4">
+                    <div class="col-md-6">
                         <div class="why-single h-100 green p-4 br10">
                             <img src="{{asset('website/assets/images/lysaght/why-icon4.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
                             <p class="desc md text-white">Value-Added Services – Roof Diagnostics & AMC</p>
@@ -365,43 +369,6 @@
         <a class="common-btn common-btn2" href="#contact">Enquire Now</a>
     </div>
 </section>
-<!-- <section class="primary-bg text-center text-white overflow-hidden py-5" id="projects">
-    <div class="container">
-        <h2 class="sec-title mb-5 text-white">Heading</h2>
-        <p class="subtitle mb-5">Lorem ipsum dolor sit amet consectetur. Varius venenatis libero in nunc.</p>
-        <iframe width="100%" height="450" src="https://www.youtube.com/embed/6hZdU-n2Q38?si=-C6Iqwm37yrk8Tz-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <a class="common-btn common-btn2 mt-5" href="#contact">Contact Now</a>
-    </div>
-</section> -->
-<!-- <section class="primary-bg text-center text-white overflow-hidden py-5" id="projects">
-    <div class="container">
-        <h2 class="sec-title mb-5 text-white">Our Projects</h2>
-        <p class="subtitle mb-5">Lorem ipsum dolor sit amet consectetur. Varius venenatis libero in nunc.</p>
-        <div class="project-slider">
-            <div>
-                <img src="{{ asset('website/assets/images/lysaght/project1.jpg') }}" alt="Project" class="w-100 mb-2">
-                <p class="subtitle">Insulated Roof Systems</p>
-            </div>
-            <div>
-                <img src="{{ asset('website/assets/images/lysaght/project2.jpg') }}" alt="Project" class="w-100 mb-2">
-                <p class="subtitle">Products Range Roof & wall cladding sheets</p>
-            </div>
-            <div>
-                <img src="{{ asset('website/assets/images/lysaght/project3.jpg') }}" alt="Project" class="w-100 mb-2">
-                <p class="subtitle">Purlins and Girts</p>
-            </div>
-            <div>
-                <img src="{{ asset('website/assets/images/lysaght/project4.jpg') }}" alt="Project" class="w-100 mb-2">
-                <p class="subtitle">Decking System</p>
-            </div>
-            <div>
-                <img src="{{ asset('website/assets/images/lysaght/project5.jpg') }}" alt="Project" class="w-100 mb-2">
-                <p class="subtitle">ILIOS<sup>&reg;</sup> – Solar Module Mounting Solutions</p>
-            </div>
-        </div>
-        <a class="common-btn common-btn2 mt-4" href="#contact">Contact Now</a>
-    </div>
-</section> -->
 
 <section class="py-5 case lys" id="case">
     <div class="container py-lg-5">
@@ -420,24 +387,24 @@
                             <a class="d-flex align-items-center justify-content-between" href="javascript:;">Proactive Roof Diagnostics
                                 <img src="{{asset('website/assets/images/lysaght/package-icon3.png')}}" alt="Package" class="ms-2">
                             </a>
-                            <a class="d-flex align-items-center justify-content-between" href="javascript:;">AMC (Annual Maintenance Contract)
+                            <a class="d-flex align-items-center justify-content-between mb-0" href="javascript:;">AMC (Annual Maintenance Contract)
                                 <img src="{{asset('website/assets/images/lysaght/package-icon4.png')}}" alt="Package" class="ms-2">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="pcontent-wrap" id="pcontent-wrap">
-                            <div class="pcontent" style="display: block;">
-                                <img src="{{ asset('website/assets/images/lysaght/package1.jpg') }}" alt="Package" class="img-fluid">
+                        <div class="pcontent-wrap h-100" id="pcontent-wrap">
+                            <div class="pcontent h-100" style="display: block;">
+                                <img src="{{ asset('website/assets/images/lysaght/package1.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
                             </div>
-                            <div class="pcontent">
-                                <img src="{{ asset('website/assets/images/lysaght/package2.jpg') }}" alt="Package" class="img-fluid">
+                            <div class="pcontent h-100">
+                                <img src="{{ asset('website/assets/images/lysaght/package2.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
                             </div>
-                            <div class="pcontent">
-                                <img src="{{ asset('website/assets/images/lysaght/package3.jpg') }}" alt="Package" class="img-fluid">
+                            <div class="pcontent h-100">
+                                <img src="{{ asset('website/assets/images/lysaght/package3.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
                             </div>
-                            <div class="pcontent">
-                                <img src="{{ asset('website/assets/images/lysaght/package4.jpg') }}" alt="Package" class="img-fluid">
+                            <div class="pcontent h-100">
+                                <img src="{{ asset('website/assets/images/lysaght/package4.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
                             </div>
                         </div>
                     </div>

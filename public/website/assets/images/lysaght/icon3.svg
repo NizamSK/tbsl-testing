@@ -1,9 +1,9 @@
 <svg width="98" height="93" viewBox="0 0 98 93" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_529_361)">
-<g clip-path="url(#clip1_529_361)">
-<g clip-path="url(#clip2_529_361)">
-<g filter="url(#filter0_i_529_361)">
-<path d="M82.9231 0H15.0769C6.75018 0 0 6.26801 0 14V79C0 86.732 6.75018 93 15.0769 93H82.9231C91.2498 93 98 86.732 98 79V14C98 6.26801 91.2498 0 82.9231 0Z" fill="#8BC53F"/>
+<g clip-path="url(#clip0_591_297)">
+<g clip-path="url(#clip1_591_297)">
+<g clip-path="url(#clip2_591_297)">
+<g filter="url(#filter0_i_591_297)">
+<path d="M82.9231 0H15.0769C6.75018 0 0 6.26801 0 14V79C0 86.732 6.75018 93 15.0769 93H82.9231C91.2498 93 98 86.732 98 79V14C98 6.26801 91.2498 0 82.9231 0Z" fill="#3B134E"/>
 <path d="M59.8149 36.3273C59.4815 35.9938 58.941 35.9938 58.6076 36.3273L52.3293 42.6055C52.0185 42.9163 51.9978 43.4298 52.2839 43.7639C52.6032 44.1366 53.1894 44.1602 53.5367 43.8129L59.8149 37.5346C60.1483 37.2011 60.1483 36.6606 59.8149 36.3273Z" fill="white"/>
 <path d="M62.5513 33.59C62.2179 33.2565 61.6773 33.2565 61.344 33.59L60.5391 34.3949C60.2057 34.7283 60.2057 35.2689 60.5391 35.6022C60.7057 35.7688 60.9243 35.8523 61.1427 35.8523C61.3612 35.8523 61.5797 35.7689 61.7463 35.6022L62.5512 34.7973C62.8848 34.4639 62.8848 33.9233 62.5513 33.59Z" fill="white"/>
 <path d="M31.7308 64.4632C31.0536 63.786 30.1531 63.4131 29.1953 63.4131C28.2375 63.4131 27.3371 63.786 26.6599 64.4632C25.2618 65.8613 25.2618 68.1361 26.6599 69.5342C27.3371 70.2115 28.2376 70.5844 29.1953 70.5844C30.1531 70.5844 31.0536 70.2115 31.7308 69.5342C32.4081 68.8569 32.781 67.9565 32.781 66.9987C32.781 66.041 32.4081 65.1405 31.7308 64.4632ZM30.5235 68.3268C29.7912 69.0591 28.5998 69.0592 27.8674 68.3268C27.1351 67.5944 27.1351 66.403 27.8674 65.6706C28.2336 65.3044 28.7145 65.1213 29.1954 65.1213C29.6765 65.1213 30.1574 65.3044 30.5235 65.6706C31.2558 66.4029 31.2558 67.5945 30.5235 68.3268Z" fill="white"/>
@@ -18,7 +18,7 @@
 </g>
 </g>
 <defs>
-<filter id="filter0_i_529_361" x="0" y="0" width="98" height="97" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_i_591_297" x="0" y="0" width="98" height="97" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
@@ -26,15 +26,15 @@
 <feGaussianBlur stdDeviation="2"/>
 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="shape" result="effect1_innerShadow_529_361"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_591_297"/>
 </filter>
-<clipPath id="clip0_529_361">
+<clipPath id="clip0_591_297">
 <rect width="98" height="93" fill="white"/>
 </clipPath>
-<clipPath id="clip1_529_361">
+<clipPath id="clip1_591_297">
 <rect width="98" height="93" fill="white"/>
 </clipPath>
-<clipPath id="clip2_529_361">
+<clipPath id="clip2_591_297">
 <rect width="98" height="93" fill="white"/>
 </clipPath>
 </defs>
