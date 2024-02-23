@@ -540,7 +540,7 @@
                 <div class="col-md-5 mb-4">
                     <div class="check-single px-3 px-md-4 py-4 br10 d-flex align-items-center">
                         <img src="{{asset('website/assets/images/checkpoint.svg')}}" alt="Checkpoint" class="me-3 position-relative">
-                        <div class="subtitle position-relative">Choose the Right Material</div>
+                        <div class="subtitle position-relative">Choose the Right Engineering</div>
                     </div>
                 </div>
             </div>
@@ -548,13 +548,13 @@
                 <div class="col-md-5 mb-4">
                     <div class="check-single px-3 px-md-4 py-4 br10 d-flex align-items-center">
                         <img src="{{asset('website/assets/images/checkpoint.svg')}}" alt="Checkpoint" class="me-3 position-relative">
-                        <div class="subtitle position-relative">Choose the Right Material</div>
+                        <div class="subtitle position-relative">Choose the Right Solution</div>
                     </div>
                 </div>
                 <div class="col-md-5 mb-4">
                     <div class="check-single px-3 px-md-4 py-4 br10 d-flex align-items-center">
                         <img src="{{asset('website/assets/images/checkpoint.svg')}}" alt="Checkpoint" class="me-3 position-relative">
-                        <div class="subtitle position-relative">Choose the Right Material</div>
+                        <div class="subtitle position-relative">Choose the Right Quality</div>
                     </div>
                 </div>
             </div>
@@ -562,7 +562,7 @@
                 <div class="col-md-5 mb-4">
                     <div class="check-single px-3 px-md-4 py-4 br10 d-flex align-items-center">
                         <img src="{{asset('website/assets/images/checkpoint.svg')}}" alt="Checkpoint" class="me-3 position-relative">
-                        <div class="subtitle position-relative">Choose the Right Material</div>
+                        <div class="subtitle position-relative">Choose the Right Construction</div>
                     </div>
                 </div>
             </div>
