@@ -198,7 +198,7 @@
     <div class="container py-lg-5">
         <div class="text-center">
             <h2 class="sec-title mb-2">Our Offerings</h2>
-            <p class="subtitle mb-5">We provide valuable engineering through our roofing and wall cladding solutions for diverse industry sectors</p>
+            <p class="subtitle mb-5">We provide valuable engineering through our roof and wall cladding solutions for diverse industry sectors</p>
         </div>
         <div class="row mt-5 ptabs-wrap">
             <div class="col-md-6 pe-xl-5">
@@ -215,7 +215,7 @@
                 <div class="pcontent-wrap" id="pcontent-wrap">
                     <div class="pcontent" style="display: block;">
                         <img src="{{ asset('website/assets/images/lysaght/product2.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
-                        <p class="desc mb-4">The LYSAGHT<sup>&reg;</sup> range of colour coated Roofing and Wall Cladding profiles from Tata BluesScope Steel are suitable for a variety of applications and design considerations.The roofing and walling profiles are manufactured from high strength ZINCALUME<sup>&reg;</sup> steel and COLORBOND<sup>&reg;</sup> steel exhibiting wider spanning capabilities with better uplift performance. Aesthetic appearance, longer life, environment-friendly, capability of sustaining high wind, and impact load, are some of the benefits of the LYSAGHT<sup>&reg;</sup> Roofing and Wall cladding sheets.</p>
+                        <p class="desc mb-4">The LYSAGHT<sup>&reg;</sup> range of colour coated Roof and Wall Cladding profiles from Tata BluesScope Steel are suitable for a variety of applications and design considerations.The roof and walling profiles are manufactured from high strength ZINCALUME<sup>&reg;</sup> steel and COLORBOND<sup>&reg;</sup> steel exhibiting wider spanning capabilities with better uplift performance. Aesthetic appearance, longer life, environment-friendly, capability of sustaining high wind, and impact load, are some of the benefits of the LYSAGHT<sup>&reg;</sup> roof and Wall cladding sheets.</p>
                         <div class="text-center text-md-start"><a href="#contact" class="common-btn common-btn2">Explore</a></div>
                     </div>
                     <div class="pcontent">
@@ -225,7 +225,7 @@
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product3.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
-                        <p class="desc mb-4">LYSAGHT<sup>&reg;</sup> profiles can be used in Single Skin and Double skin Insulated Roof systems. LYSAGHT<sup>&reg;</sup> roof and wall systems provide superior energy efficiency combined with aesthetic looks for the commercial construction sector. These systems are dependent on specific requirements and can be tailored to suit the thermal, acoustic, ventilation or economic requirements. Below are some Typical Insulated roof systems with LYSAGHT<sup>&reg;</sup> roofing profiles.</p>
+                        <p class="desc mb-4">LYSAGHT<sup>&reg;</sup> profiles can be used in Single Skin and Double skin Insulated Roof systems. LYSAGHT<sup>&reg;</sup> roof and wall systems provide superior energy efficiency combined with aesthetic looks for the commercial construction sector. These systems are dependent on specific requirements and can be tailored to suit the thermal, acoustic, ventilation or economic requirements. Below are some Typical Insulated roof systems with LYSAGHT<sup>&reg;</sup> roof profiles.</p>
                         <div class="text-center text-md-start"><a href="#contact" class="common-btn common-btn2">Explore</a></div>
                     </div>
                     <div class="pcontent">
@@ -235,7 +235,7 @@
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product5.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
-                        <p class="desc mb-4">The selection of right accessories is as critical as choosing the right roofing and walling material. We supply high-quality accessories that not only match, but are also compatible with our cladding material. They ensure longevity, are weatherproof as well as leak-proof and enhance aesthetics of the buildings.</p>
+                        <p class="desc mb-4">The selection of right accessories is as critical as choosing the right roof and walling material. We supply high-quality accessories that not only match, but are also compatible with our cladding material. They ensure longevity, are weatherproof as well as leak-proof and enhance aesthetics of the buildings.</p>
                         <div class="text-center text-md-start"><a href="#contact" class="common-btn common-btn2">Explore</a></div>
                     </div>
                     <div class="pcontent">
@@ -261,7 +261,7 @@
                     {{-- </div> --}}
                     <div class="ps-md-3">
                         <div class="subtitle mb-3">Occupant Comfort</div>
-                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roofing products provide optimal comfort for your building users. They are fire-resistant, termite-proof, and durable. They also reduce heat, noise, and glare.</p>
+                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roof products provide optimal comfort for your building users. They are fire-resistant, termite-proof, and durable. They also reduce heat, noise, and glare.</p>
                     </div>
                 </div>
             </div>
@@ -272,7 +272,7 @@
                     {{-- </div> --}}
                     <div class="ps-md-3">
                         <div class="subtitle mb-3">Energy Efficient</div>
-                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roofing products reflect heat and light, lowering your cooling and lighting costs. They also feature Thermatech<sup>&reg;</sup> technology, which improves the thermal efficiency of your building. They can also support roof-top solar solutions, helping you save on electricity bills.</p>
+                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roof products reflect heat and light, lowering your cooling and lighting costs. They also feature Thermatech<sup>&reg;</sup> technology, which improves the thermal efficiency of your building. They can also support roof-top solar solutions, helping you save on electricity bills.</p>
                     </div>
                 </div>
             </div>
@@ -283,7 +283,7 @@
                     {{-- </div> --}}
                     <div class="ps-md-3">
                         <div class="subtitle mb-3">Customised Solutions</div>
-                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roofing products come in various profiles, shapes, colours, and finishes, allowing you to customize your roof according to your preferences and needs. They can suit any roof design and integrate with other building materials, creating a harmonious and attractive look for your building.</p>
+                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roof products come in various profiles, shapes, colours, and finishes, allowing you to customize your roof according to your preferences and needs. They can suit any roof design and integrate with other building materials, creating a harmonious and attractive look for your building.</p>
                     </div>
                 </div>
             </div>
@@ -294,7 +294,7 @@
                     {{-- </div> --}}
                     <div class="ps-md-3">
                         <div class="subtitle mb-3">Value Added Services</div>
-                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roofing products are backed by a comprehensive warranty and technical support from Tata BlueScope Steel, a leading steel manufacturer in India. They also offer on-site roll forming facilities, ensuring fast and accurate installation. They are also available through a network of resellers and distributors across the country, providing you with easy access to quality roofing solutions.</p>
+                        <p class="desc mb-0">LYSAGHT<sup>&reg;</sup> roof products are backed by a comprehensive warranty and technical support from Tata BlueScope Steel, a leading steel manufacturer in India. They also offer on-site roll forming facilities, ensuring fast and accurate installation. They are also available through a network of resellers and distributors across the country, providing you with easy access to quality roof solutions.</p>
                     </div>
                 </div>
             </div>
@@ -347,7 +347,7 @@
 <section class="text-center overflow-hidden py-5 sol-sec" style="background-color: #EBEBEB">
     <div class="container">
         <h2 class="sec-title mb-4">Customised Roof and Wall Cladding Solutions For All Your Needs</h2>
-        <p class="subtitle mb-5">We offer valuable engineering solutions for a variety of industry sectors through our expertise in roofing and wall cladding solutions.</p>
+        <p class="subtitle mb-5">We offer valuable engineering solutions for a variety of industry sectors through our expertise in roof and wall cladding solutions.</p>
         <div class="row mb-2">
             <div class="col-6 col-md-3 mb-4">
                 <img src="{{ asset('website/assets/images/lysaght/brochure1.jpg') }}" alt="Brochure" class="img-fluid br10 mb-3">
@@ -581,11 +581,11 @@
                         </div>
                         <div>
                             <img src="{{ asset('website/assets/images/lysaght/award2.png') }}" alt="Award" class="img-fluid d-inline-block br20">
-                            <P class="subtitle text-white mt-3"><em>Best Product under Roofing and Cladding category by Construction Times Awards 2017</em></P>
+                            <P class="subtitle text-white mt-3"><em>Best Product under roof and Cladding category by Construction Times Awards 2017</em></P>
                         </div>
                         <div>
                             <img src="{{ asset('website/assets/images/lysaght/award3.png') }}" alt="Award" class="img-fluid d-inline-block br20">
-                            <P class="subtitle text-white mt-3"><em>Most Trusted Roofing Brand under Construction category by the 7th EPC World Awards</em></P>
+                            <P class="subtitle text-white mt-3"><em>Most Trusted roof Brand under Construction category by the 7th EPC World Awards</em></P>
                         </div>
                     </div>
                 </div>
