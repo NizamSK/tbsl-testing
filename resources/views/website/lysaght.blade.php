@@ -306,7 +306,7 @@
             <div class="col-lg-6 col-xl-5 mb-4 mb-lg-0 pe-xl-0">
                 <img src="{{asset('website/assets/images/lysaght/why-img.png')}}" alt="Why Img" class="w-100">
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 text-center text-md-start">
                 <div class="row">
                     <div class="col-sm-6 mb-4">
                         <div class="why-single h-100 p-4 br10">
