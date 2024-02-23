@@ -14,11 +14,11 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-0">
                 <div class="banner-caption">
-                    <div class="pe-4">
+                    {{-- <div class="pe-4">
                         <img src="{{asset('website/assets/images/lysaght/shelterforall.svg')}}" alt="Shelter for all" class="img-fluid mb-3 mb-lg-4">
-                    </div>
-                    <h1 class="btitle text-white mb-4">LYSAGHT<sup>&reg;</sup> One-Stop Solution For All Your Roof and Wall Cladding Needs</h1>
-                    <p class="subtitle text-white mb-4 mb-xl-5">Our Promise: Your Peace of Mind</p>
+                    </div> --}}
+                    <h1 class="btitle text-white mb-4">One-Stop Solution For All Your Roof and Wall Cladding Needs</h1>
+                    {{-- <p class="subtitle text-white mb-4 mb-xl-5">Our Promise: Your Peace of Mind</p> --}}
                     <div class="d-flex align-items-center mb-3 mb-lg-4">
                         <img class="me-2 me-sm-3" src="{{asset('website/assets/images/banner-icon1.svg')}}" alt="Icon" width="60" height="60">
                         <div class="desc md text-white">Design and Engineering Excellence</div>
@@ -194,6 +194,90 @@
         </div>
     </div>
 </section>
+<section class="about lys bg-white py-5" id="about">
+    <div class="container py-lg-5">
+        <h2 class="sec-title mb-4 mb-xl-5 text-center">Why Lysaght<sup>&reg;</sup> Is <span class="grad-text">The Ultimate</span> <span class="grad-text">Choice</span></h2>
+        <div class="row justify-content-between mb-4">
+            <div class="col-lg-6 col-xl-5 mb-4 mb-lg-0 pe-xl-0">
+                <img src="{{asset('website/assets/images/lysaght/why-img.jpg')}}" alt="Why Img" class="w-100 h-100 object-fit-cover br30">
+            </div>
+            <div class="col-lg-6 text-center text-md-start">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="why-single h-100 p-4 br10">
+                            <img src="{{asset('website/assets/images/lysaght/why-icon1.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
+                            <p class="desc md text-white">150 Years of Global Legacy</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="why-single h-100 green p-4 br10">
+                            <img src="{{asset('website/assets/images/lysaght/why-icon2.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
+                            <p class="desc md text-white">Design Engineering and Leak-Proof Performance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row flex-md-row-reverse">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <div class="why-single h-100 p-4 br10">
+                            <img src="{{asset('website/assets/images/lysaght/why-icon3.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
+                            <p class="desc md text-white">360° Solution - Design, Manufacturing, & Construction</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="why-single h-100 green p-4 br10">
+                            <img src="{{asset('website/assets/images/lysaght/why-icon4.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
+                            <p class="desc md text-white">Value-Added Services – Roof Diagnostics & AMC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center"><a href="#contact" class="common-btn common-btn2">Contact Now</a></div>
+    </div>
+</section>
+<section class="py-5 case lys" id="case">
+    <div class="container py-lg-5">
+        <div class="row">
+            <div class="col-xl-11">
+                <div class="row mt-5 ptabs-wrap flex-md-row-reverse">
+                    <div class="col-md-6 pe-xl-5">
+                        <h2 class="sec-title mb-4 text-center text-md-start">The Complete Package - From Design to Construction</h2>
+                        <div class="d-flex flex-wrap flex-row flex-md-column justify-content-center justify-content-md-start ptabs package lys">
+                            <a class="d-flex align-items-center justify-content-between active" href="javascript:;">On-Time Project Delivery
+                                <img src="{{asset('website/assets/images/lysaght/package-icon1.png')}}" alt="Package" class="ms-2">
+                            </a>
+                            <a class="d-flex align-items-center justify-content-between" href="javascript:;">World Class Safety Practices and Processes
+                                <img src="{{asset('website/assets/images/lysaght/package-icon2.png')}}" alt="Package" class="ms-2">
+                            </a>
+                            <a class="d-flex align-items-center justify-content-between" href="javascript:;">Proactive Roof Diagnostics
+                                <img src="{{asset('website/assets/images/lysaght/package-icon3.png')}}" alt="Package" class="ms-2">
+                            </a>
+                            <a class="d-flex align-items-center justify-content-between mb-0" href="javascript:;">AMC (Annual Maintenance Contract)
+                                <img src="{{asset('website/assets/images/lysaght/package-icon4.png')}}" alt="Package" class="ms-2">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pcontent-wrap h-100" id="pcontent-wrap">
+                            <div class="pcontent h-100" style="display: block;">
+                                <img src="{{ asset('website/assets/images/lysaght/package1.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="pcontent h-100">
+                                <img src="{{ asset('website/assets/images/lysaght/package2.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="pcontent h-100">
+                                <img src="{{ asset('website/assets/images/lysaght/package3.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="pcontent h-100">
+                                <img src="{{ asset('website/assets/images/lysaght/package4.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="py-5" id="products">
     <div class="container py-lg-5">
         <div class="text-center">
@@ -250,6 +334,31 @@
 
     </div>
 </section>
+<section class="text-center overflow-hidden py-5 sol-sec" style="background-color: #EBEBEB">
+    <div class="container">
+        <h2 class="sec-title mb-4">Customised Roof and Wall Cladding Solutions For All Your Needs</h2>
+        <p class="subtitle mb-5">We offer valuable engineering solutions for a variety of industry sectors through our expertise in roof and wall cladding solutions.</p>
+        <div class="row mb-2">
+            <div class="col-6 col-md-3 mb-4">
+                <img src="{{ asset('website/assets/images/lysaght/brochure1.jpg') }}" alt="Brochure" class="img-fluid br10 mb-3">
+                <p class="desc md mb-0">Manufacturing Facilities</p>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <img src="{{ asset('website/assets/images/lysaght/brochure2.jpg') }}" alt="Brochure" class="img-fluid br10 mb-3">
+                <p class="desc md mb-0">Metro Projects</p>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <img src="{{ asset('website/assets/images/lysaght/brochure3.jpg') }}" alt="Brochure" class="img-fluid br10 mb-3">
+                <p class="desc md mb-0">Warehouses</p>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <img src="{{ asset('website/assets/images/lysaght/brochure4.jpg') }}" alt="Brochure" class="img-fluid br10 mb-3">
+                <p class="desc md mb-0">Re-roofing Projects</p>
+            </div>
+        </div>
+        <a class="common-btn common-btn2" href="#contact">Enquire Now</a>
+    </div>
+</section>
 <section class="value overflow-hidden py-5 lys-solution sol2" style="background-color: #F5F5F5">
     <div class="container">
         <h2 class="sec-title mb-5 text-center">Get Exclusive Roof and <span class="grad-text">Wall Cladding Solutions</span></h2>
@@ -303,116 +412,10 @@
     </div>
 </section>
 
-<section class="about lys bg-white py-5" id="about">
-    <div class="container py-lg-5">
-        <h2 class="sec-title mb-4 mb-xl-5 text-center">Why Lysaght<sup>&reg;</sup> Is <span class="grad-text">The Ultimate</span> <span class="grad-text">Choice</span></h2>
-        <div class="row justify-content-between mb-4">
-            <div class="col-lg-6 col-xl-5 mb-4 mb-lg-0 pe-xl-0">
-                <img src="{{asset('website/assets/images/lysaght/why-img.jpg')}}" alt="Why Img" class="w-100 h-100 object-fit-cover br30">
-            </div>
-            <div class="col-lg-6 text-center text-md-start">
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="why-single h-100 p-4 br10">
-                            <img src="{{asset('website/assets/images/lysaght/why-icon1.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
-                            <p class="desc md text-white">150 Years of Global Legacy</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="why-single h-100 green p-4 br10">
-                            <img src="{{asset('website/assets/images/lysaght/why-icon2.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
-                            <p class="desc md text-white">Design Engineering and Leak-Proof Performance</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row flex-md-row-reverse">
-                    <div class="col-md-6 mb-4 mb-md-0">
-                        <div class="why-single h-100 p-4 br10">
-                            <img src="{{asset('website/assets/images/lysaght/why-icon3.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
-                            <p class="desc md text-white">360° Solution - Design, Manufacturing, & Construction</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="why-single h-100 green p-4 br10">
-                            <img src="{{asset('website/assets/images/lysaght/why-icon4.png')}}" alt="Why Icon" class="mb-3 mb-lg-4">
-                            <p class="desc md text-white">Value-Added Services – Roof Diagnostics & AMC</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="text-center"><a href="#contact" class="common-btn common-btn2">Contact Now</a></div>
-    </div>
-</section>
-<section class="text-center overflow-hidden py-5 sol-sec" style="background-color: #EBEBEB">
-    <div class="container">
-        <h2 class="sec-title mb-4">Customised Roof and Wall Cladding Solutions For All Your Needs</h2>
-        <p class="subtitle mb-5">We offer valuable engineering solutions for a variety of industry sectors through our expertise in roof and wall cladding solutions.</p>
-        <div class="row mb-2">
-            <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('website/assets/images/lysaght/brochure1.jpg') }}" alt="Brochure" class="img-fluid br10 mb-3">
-                <p class="desc md mb-0">Manufacturing Facilities</p>
-            </div>
-            <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('website/assets/images/lysaght/brochure2.jpg') }}" alt="Brochure" class="img-fluid br10 mb-3">
-                <p class="desc md mb-0">Metro Projects</p>
-            </div>
-            <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('website/assets/images/lysaght/brochure3.jpg') }}" alt="Brochure" class="img-fluid br10 mb-3">
-                <p class="desc md mb-0">Warehouses</p>
-            </div>
-            <div class="col-6 col-md-3 mb-4">
-                <img src="{{ asset('website/assets/images/lysaght/brochure4.jpg') }}" alt="Brochure" class="img-fluid br10 mb-3">
-                <p class="desc md mb-0">Re-roofing Projects</p>
-            </div>
-        </div>
-        <a class="common-btn common-btn2" href="#contact">Enquire Now</a>
-    </div>
-</section>
 
-<section class="py-5 case lys" id="case">
-    <div class="container py-lg-5">
-        <div class="row">
-            <div class="col-xl-11">
-                <div class="row mt-5 ptabs-wrap flex-md-row-reverse">
-                    <div class="col-md-6 pe-xl-5">
-                        <h2 class="sec-title mb-4 text-center text-md-start">The Complete Package - From Design to Construction</h2>
-                        <div class="d-flex flex-wrap flex-row flex-md-column justify-content-center justify-content-md-start ptabs package lys">
-                            <a class="d-flex align-items-center justify-content-between active" href="javascript:;">On-Time Project Delivery
-                                <img src="{{asset('website/assets/images/lysaght/package-icon1.png')}}" alt="Package" class="ms-2">
-                            </a>
-                            <a class="d-flex align-items-center justify-content-between" href="javascript:;">World Class Safety Practices and Processes
-                                <img src="{{asset('website/assets/images/lysaght/package-icon2.png')}}" alt="Package" class="ms-2">
-                            </a>
-                            <a class="d-flex align-items-center justify-content-between" href="javascript:;">Proactive Roof Diagnostics
-                                <img src="{{asset('website/assets/images/lysaght/package-icon3.png')}}" alt="Package" class="ms-2">
-                            </a>
-                            <a class="d-flex align-items-center justify-content-between mb-0" href="javascript:;">AMC (Annual Maintenance Contract)
-                                <img src="{{asset('website/assets/images/lysaght/package-icon4.png')}}" alt="Package" class="ms-2">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="pcontent-wrap h-100" id="pcontent-wrap">
-                            <div class="pcontent h-100" style="display: block;">
-                                <img src="{{ asset('website/assets/images/lysaght/package1.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
-                            </div>
-                            <div class="pcontent h-100">
-                                <img src="{{ asset('website/assets/images/lysaght/package2.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
-                            </div>
-                            <div class="pcontent h-100">
-                                <img src="{{ asset('website/assets/images/lysaght/package3.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
-                            </div>
-                            <div class="pcontent h-100">
-                                <img src="{{ asset('website/assets/images/lysaght/package4.jpg') }}" alt="Package" class="w-100 h-100 object-fit-cover">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+
+
 <section class="primary-bg lys-solution py-5">
     <div class="container py-lg-4">
         <h2 class="sec-title text-white text-center mb-4 mb-lg-5">What People Say</h2>
