@@ -409,7 +409,7 @@
             <div class="col-xl-11">
                 <div class="row mt-5 ptabs-wrap flex-md-row-reverse">
                     <div class="col-md-6 pe-xl-5">
-                        <h2 class="sec-title mb-4">The Complete Package - From Design to Construction</h2>
+                        <h2 class="sec-title mb-4 text-center text-md-start">The Complete Package - From Design to Construction</h2>
                         <div class="d-flex flex-wrap flex-row flex-md-column justify-content-center justify-content-md-start ptabs package lys">
                             <a class="d-flex align-items-center justify-content-between active" href="javascript:;">On-Time Project Delivery
                                 <img src="{{asset('website/assets/images/lysaght/package-icon1.png')}}" alt="Package" class="ms-2">
@@ -449,9 +449,9 @@
 <section class="primary-bg lys-solution py-5">
     <div class="container py-lg-4">
         <h2 class="sec-title text-white text-center mb-4 mb-lg-5">What People Say</h2>
-        <div class="row mb-4">
+        <div class="row mb-4 text-center text-md-left">
             <div class="col-md-6 mb-4 pb-xl-2">
-                <div class="bg-white p-4 p-xl-5 br30">
+                <div class="bg-white p-3 p-md-4 p-xl-5 br30">
                     <div class="ratio ratio-16x9">
                         <iframe src="https://www.youtube.com/embed/HsqESBSJs-0" width="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                     </div>
@@ -460,7 +460,7 @@
                 </div>
             </div>
             <div class="col-md-6 mb-4 pb-xl-2">
-                <div class="bg-white p-4 p-xl-5 br30">
+                <div class="bg-white p-3 p-md-4 p-xl-5 br30">
                     <div class="ratio ratio-16x9">
                         <iframe src="https://www.youtube.com/embed/5H65wDiHdE8" width="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                     </div>
@@ -469,7 +469,7 @@
                 </div>
             </div>
             <div class="col-md-6 mb-4 pb-xl-2">
-                <div class="bg-white p-4 p-xl-5 br30">
+                <div class="bg-white p-3 p-md-4 p-xl-5 br30">
                     <div class="ratio ratio-16x9">
                         <iframe src="https://www.youtube.com/embed/TVhMaIjdF1Q" width="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                     </div>
@@ -478,7 +478,7 @@
                 </div>
             </div>
             <div class="col-md-6 mb-4 pb-xl-2">
-                <div class="bg-white p-4 p-xl-5 br30">
+                <div class="bg-white p-3 p-md-4 p-xl-5 br30">
                     <div class="ratio ratio-16x9">
                         <iframe src="https://www.youtube.com/embed/D9_rM86pP_Y" width="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                     </div>
