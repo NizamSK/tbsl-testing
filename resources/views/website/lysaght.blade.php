@@ -159,7 +159,7 @@
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-12 text-center text-md-start">
                             <button type="submit" class="common-btn">Submit</button>
                         </div>
                     </div>
@@ -216,32 +216,32 @@
                     <div class="pcontent" style="display: block;">
                         <img src="{{ asset('website/assets/images/lysaght/product2.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">The LYSAGHT<sup>&reg;</sup> range of colour coated Roofing and Wall Cladding profiles from Tata BluesScope Steel are suitable for a variety of applications and design considerations.The roofing and walling profiles are manufactured from high strength ZINCALUME<sup>&reg;</sup> steel and COLORBOND<sup>&reg;</sup> steel exhibiting wider spanning capabilities with better uplift performance. Aesthetic appearance, longer life, environment-friendly, capability of sustaining high wind, and impact load, are some of the benefits of the LYSAGHT<sup>&reg;</sup> Roofing and Wall cladding sheets.</p>
-                        <div class="text-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
+                        <div class="text-center text-md-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product1.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">LYSAGHT<sup>&reg;</sup> Roof Purlins and Girts are light-weight structural steel members, designed in accordance with the As/Nzs 4600: 1996 Cold Formed Steel Structures, utilising high Strength Zinc-coated Steel. Available in ZED-plus™ Sections, these roof purlins can be used over single spans or un-lapped and lapped continuous spans in multi-bay buildings. Lapped continuous spans result in considerable capacity increase in the system. LYSAGHT<sup>&reg;</sup> CEE-plus™ Sections may be used in single spans, and un-lapped continuous spans in multi-bay building, and are ideal as eave purlins or where compact sections are required for detailing.</p>
-                        <div class="text-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
+                        <div class="text-center text-md-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product3.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">LYSAGHT<sup>&reg;</sup> profiles can be used in Single Skin and Double skin Insulated Roof systems. LYSAGHT<sup>&reg;</sup> roof and wall systems provide superior energy efficiency combined with aesthetic looks for the commercial construction sector. These systems are dependent on specific requirements and can be tailored to suit the thermal, acoustic, ventilation or economic requirements. Below are some Typical Insulated roof systems with LYSAGHT<sup>&reg;</sup> roofing profiles.</p>
-                        <div class="text-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
+                        <div class="text-center text-md-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product4.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">Structural decking sheets in form of Smartdek and Ezydek are innovative systems specially developed for Indian construction fraternity. Structural Decking is an economic steel formwork deck that provides a stable and safe working platform to allow wet concrete to be poured. Structural Decking also acts as a tensile reinforcement imparting strength to the concrete slab. The steel decking sheets are suitable for all forms of construction – masonry, steel frame, concrete frame & all segments – Infrastructural, industrial, commercial & residential.</p>
-                        <div class="text-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
+                        <div class="text-center text-md-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product5.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">The selection of right accessories is as critical as choosing the right roofing and walling material. We supply high-quality accessories that not only match, but are also compatible with our cladding material. They ensure longevity, are weatherproof as well as leak-proof and enhance aesthetics of the buildings.</p>
-                        <div class="text-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
+                        <div class="text-center text-md-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
                     </div>
                     <div class="pcontent">
                         <img src="{{ asset('website/assets/images/lysaght/product6.jpg') }}" alt="Product" class="img-fluid mb-4"><br>
                         <p class="desc mb-4">ILIOS<sup>&reg;</sup> offers premium solar module mounting solutions for ground and roof-top applications. These customised solar mounting systems are manufactured from cold rolled Zn-Al / Zn coated steel and offer higher corrosion resistance, weight optimisation and quick installation. ILIOS<sup>&reg;</sup> offers a complete solar mounting solution for executing turnkey solar power projects that includes design detailing, engineering support, installation and material supply. LYSAGHT<sup>&reg;</sup> multi-locational manufacturing facilities ensure on-time project delivery.</p>
-                        <div class="text-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
+                        <div class="text-center text-md-start"><a href="#contact" class="common-btn common-btn2 grad2">Explore</a></div>
                     </div>
                 </div>
             </div>
@@ -255,38 +255,38 @@
         <h2 class="sec-title mb-5 text-center">Get Exclusive Roof and Wall Cladding Solutions</h2>
         <div class="row justify-content-center">
             <div class="col-xl-10">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center text-center text-md-left">
                     <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
-                        <div class="value-box h-100 d-flex flex-column align-items-start p-3 p-lg-4">
-                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-start justify-content-center"> --}}
-                            <img src="{{ asset('website/assets/images/lysaght/icon1.svg') }}" alt="Icon" class="img-fluid mb-2 mb-md-3 mb-lg-4">
+                        <div class="value-box h-100 d-flex flex-column align-items-center align-items-md-start p-3 p-lg-4">
+                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
+                            <img src="{{ asset('website/assets/images/lysaght/icon1.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
                             {{-- </div> --}}
                             <div class="subtitle mb-3">Occupant Comfort</div>
                             <p class="desc sm">LYSAGHT<sup>&reg;</sup> roofing products provide optimal comfort for your building users. They are fire-resistant, termite-proof, and durable. They also reduce heat, noise, and glare.</p>
                         </div>
                     </div>
                     <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
-                        <div class="value-box h-100 d-flex flex-column align-items-start p-3 p-lg-4">
-                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-start justify-content-center"> --}}
-                            <img src="{{ asset('website/assets/images/lysaght/icon2.svg') }}" alt="Icon" class="img-fluid mb-2 mb-md-3 mb-lg-4">
+                        <div class="value-box h-100 d-flex flex-column align-items-center align-items-md-start p-3 p-lg-4">
+                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
+                            <img src="{{ asset('website/assets/images/lysaght/icon2.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
                             {{-- </div> --}}
                             <div class="subtitle mb-3">Energy Efficient</div>
                             <p class="desc sm">LYSAGHT<sup>&reg;</sup> roofing products reflect heat and light, lowering your cooling and lighting costs. They also feature Thermatech<sup>&reg;</sup> technology, which improves the thermal efficiency of your building. They can also support roof-top solar solutions, helping you save on electricity bills.</p>
                         </div>
                     </div>
                     <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
-                        <div class="value-box h-100 d-flex flex-column align-items-start p-3 p-lg-4">
-                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-start justify-content-center"> --}}
-                            <img src="{{ asset('website/assets/images/lysaght/icon3.svg') }}" alt="Icon" class="img-fluid mb-2 mb-md-3 mb-lg-4">
+                        <div class="value-box h-100 d-flex flex-column align-items-center align-items-md-start p-3 p-lg-4">
+                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
+                            <img src="{{ asset('website/assets/images/lysaght/icon3.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
                             {{-- </div> --}}
                             <div class="subtitle mb-3">Customised Solutions</div>
                             <p class="desc sm">LYSAGHT<sup>&reg;</sup> roofing products come in various profiles, shapes, colours, and finishes, allowing you to customize your roof according to your preferences and needs. They can suit any roof design and integrate with other building materials, creating a harmonious and attractive look for your building.</p>
                         </div>
                     </div>
                     <div class="col-md-6 mb-4 mb-lg-5 px-lg-4">
-                        <div class="value-box h-100 d-flex flex-column align-items-start p-3 p-lg-4">
-                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-start justify-content-center"> --}}
-                            <img src="{{ asset('website/assets/images/lysaght/icon4.svg') }}" alt="Icon" class="img-fluid mb-2 mb-md-3 mb-lg-4">
+                        <div class="value-box h-100 d-flex flex-column align-items-center align-items-md-start p-3 p-lg-4">
+                            {{-- <div class="icon mb-2 mb-md-3 mb-lg-4 d-inline-flex align-items-center align-items-md-start justify-content-center"> --}}
+                            <img src="{{ asset('website/assets/images/lysaght/icon4.svg') }}" alt="Icon" class="img-fluid mb-3 mb-lg-4">
                             {{-- </div> --}}
                             <div class="subtitle mb-3">Value Added Services</div>
                             <p class="desc sm">LYSAGHT<sup>&reg;</sup> roofing products are backed by a comprehensive warranty and technical support from Tata BlueScope Steel, a leading steel manufacturer in India. They also offer on-site roll forming facilities, ensuring fast and accurate installation. They are also available through a network of resellers and distributors across the country, providing you with easy access to quality roofing solutions.</p>
@@ -603,7 +603,7 @@
 </section>
 <section class="awards lys py-5" style="background-color: #EBEBEB">
     <div class="container py-lg-5">
-        <h2 class="sec-title text-white mb-4 text-center d-block d-md-none">Let's Build Together</h2>
+        <h2 class="sec-title mb-4 text-center d-block d-md-none">Let's Build Together</h2>
         <div class="row align-items-center">
             <div class="col-md-6 col-xl-5 mb-4 mb-md-0">
                 <div class="award-wrap br20 text-center px-3 px-lg-5 py-4">
@@ -626,7 +626,9 @@
             <div class="col-md-6 col-xl-5 ps-lg-5 pe-lg-4">
                 <h2 class="sec-title mb-4 d-none d-md-block">Let's Build Together</h2>
                 <p class="subtitle mb-0">Contact us today to learn more about our low-cost building construction solutions, PEB buildings, and warehouse construction options.</p>
-                <a class="common-btn common-btn2 mt-4" href="#contact">Contact Now</a>
+                <div class="text-center text-md-start">
+                    <a class="common-btn common-btn2 mt-4" href="#contact">Contact Now</a>
+                </div>
             </div>
         </div>
     </div>

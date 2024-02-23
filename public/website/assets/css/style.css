@@ -651,7 +651,8 @@ footer{background-color: #2363AA;}
     .menu-link{font-size: 1rem; display: block;width: max-content;color: #fff;margin-left:auto; margin-right: auto;margin-top: 1rem;margin-bottom: 1rem;}
     .menu-link:first-child{margin-left: auto;}
     .menu-link.special{font-size: .875rem;padding: .75rem 1.5rem;}
-    .ptabs a,.subtitle,.desc.md{font-size: 1rem;}
+    .ptabs a,.subtitle,.desc.md,.desc.sm{font-size: 1rem;}
+    .subtitle{font-weight: 500;}
     .navigation{
         position: fixed;
         top: 0;
