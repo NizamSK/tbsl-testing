@@ -3,8 +3,39 @@
 #
 FROM php:8.1-apache
 
-RUN apt-get update && apt-get install -yqq unzip libzip-dev \
-    && docker-php-ext-install pdo_mysql opcache zip && sudo apt-get install apache2 -y
+#RUN apt-get update && apt-get install -yqq unzip libzip-dev \
+   # && docker-php-ext-install pdo_mysql opcache zip && sudo apt-get install apache2 -y
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        libfreetype6-dev \
+        libjpeg62-turbo-dev \
+        libpng-dev \
+        libonig-dev \
+        libzip-dev \
+        libxml2-dev \
+        libicu-dev \
+        libcurl4-openssl-dev \
+        libssl-dev \
+        libmcrypt-dev \
+        zip \
+        unzip \
+    && rm -rf /var/lib/apt/lists/* \
+    && pecl install mcrypt-1.0.4 \
+    && docker-php-ext-enable mcrypt \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install -j$(nproc) gd pdo pdo_mysql opcache mbstring zip xml intl curl \
+    && a2enmod rewrite
+
+# Set recommended PHP.ini settings
+RUN { \
+        echo 'upload_max_filesize = 100M'; \
+        echo 'post_max_size = 100M'; \
+        echo 'max_execution_time = 600'; \
+        echo 'max_input_time = 600'; \
+        echo 'memory_limit = 512M'; \
+        echo 'date.timezone = "UTC"'; \
+    } > /usr/local/etc/php/conf.d/recommended.ini
 
 # Enable AutoProfile for PHP which is currently opt-in beta
 #RUN echo "instana.enable_auto_profile=1" > "/usr/local/etc/php/conf.d/zzz-instana-extras.ini"
