@@ -16,7 +16,8 @@ RUN apt-get update && apt-get install -yqq unzip libzip-dev \
 
 WORKDIR /var/www/html
 
-COPY html/ /var/www/html
+COPY COPY ../html /var/www/html
+
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 RUN composer install
