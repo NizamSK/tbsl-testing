@@ -1,7 +1,7 @@
 #
 # Build the app
 #
-FROM php:8.1-apache
+FROM php:8.1.0-apache
 
 #RUN apt-get update && apt-get install -yqq unzip libzip-dev \
    # && docker-php-ext-install pdo_mysql opcache zip && sudo apt-get install apache2 -y
