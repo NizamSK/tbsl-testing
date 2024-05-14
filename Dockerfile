@@ -21,6 +21,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN echo "localhost" >> /etc/apache2/apache2.conf
 
 # Copy your PHP application files into the container
 COPY . /var/www/html
@@ -29,7 +30,7 @@ COPY . /var/www/html
 WORKDIR /var/www/html
 
 # Expose port 80 to allow external connections to this container
-EXPOSE 80
+EXPOSE 8080
 
 # Define the command to run the Apache server
 CMD ["apache2-foreground"]
