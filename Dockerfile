@@ -15,10 +15,7 @@ WORKDIR /var/www/html
 COPY composer.json composer.lock ./
 RUN composer install --no-scripts --no-autoloader
 COPY . /var/www/html
-RUN composer dump-autoload && \
-    composer run-script post-root-package-install && \
-    composer run-script post-create-project-cmd && \
-    composer run-script post-autoload-dump
+RUN composer update
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 RUN chown -R www-data:www-data /var/www
 EXPOSE 80
