@@ -1,7 +1,7 @@
 FROM composer:latest AS composer
 WORKDIR /app
 COPY composer.json composer.lock ./
-RUN composer install --prefer-dist
+RUN composer install
 FROM php:8.1-apache
 WORKDIR /var/www/html
 COPY --from=composer /app/vendor ./vendor
