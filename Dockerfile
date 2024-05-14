@@ -10,7 +10,7 @@ EXPOSE 80
 
 # ENV APP_ENV production  # Set environment variables
 
-COPY /var/www/html/tbsl-testing/.env.example .env
+#COPY .env.example .env
 RUN composer update
 RUN chown -R www-data:www-data /var/www/html/storage
 
