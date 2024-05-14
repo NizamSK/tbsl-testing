@@ -29,7 +29,7 @@ COPY . /var/www/html
 WORKDIR /var/www/html
 
 # Expose port 80 to allow external connections to this container
-EXPOSE 80
+EXPOSE 8080
 
 # Define the command to run the Apache server
 CMD ["apache2-foreground"]
